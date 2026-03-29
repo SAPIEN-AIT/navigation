@@ -62,9 +62,9 @@ class CloudMapAccumulator(Node):
         )
 
         map_qos = QoSProfile(
-            depth=1,
+            depth=5,
             history=HistoryPolicy.KEEP_LAST,
-            durability=DurabilityPolicy.TRANSIENT_LOCAL,
+            durability=DurabilityPolicy.VOLATILE,
             reliability=ReliabilityPolicy.RELIABLE,
         )
         self._pub = self.create_publisher(PointCloud2, '/cloud_map', map_qos)
