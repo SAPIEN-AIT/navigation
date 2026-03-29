@@ -1,0 +1,3 @@
+Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_common': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_common -- -j24 -l24
+Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_common -- -j24 -l24
+Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_common': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_common

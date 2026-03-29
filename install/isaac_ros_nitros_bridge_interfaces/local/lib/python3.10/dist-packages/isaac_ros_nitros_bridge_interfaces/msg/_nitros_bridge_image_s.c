@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_nitros_bridge_interfaces/rosidl_generator_py/isaac_ros_nitros_bridge_interfaces/msg/_nitros_bridge_image_s.c

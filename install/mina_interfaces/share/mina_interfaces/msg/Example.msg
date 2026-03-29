@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/src/mina_interfaces/msg/Example.msg

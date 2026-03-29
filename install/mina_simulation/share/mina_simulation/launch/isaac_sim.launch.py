@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/src/mina_simulation/launch/isaac_sim.launch.py

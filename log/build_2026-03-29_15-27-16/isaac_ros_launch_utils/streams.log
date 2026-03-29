@@ -1,0 +1,22 @@
+[1.737s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_launch_utils': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_launch_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_launch_utils/lib/python3.10/site-packages:/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_launch_utils/build --no-deps symlink_data
+[2.129s] running develop
+[2.286s] running egg_info
+[2.286s] creating isaac_ros_launch_utils.egg-info
+[2.286s] writing isaac_ros_launch_utils.egg-info/PKG-INFO
+[2.286s] writing dependency_links to isaac_ros_launch_utils.egg-info/dependency_links.txt
+[2.287s] writing requirements to isaac_ros_launch_utils.egg-info/requires.txt
+[2.287s] writing top-level names to isaac_ros_launch_utils.egg-info/top_level.txt
+[2.287s] writing manifest file 'isaac_ros_launch_utils.egg-info/SOURCES.txt'
+[2.288s] reading manifest file 'isaac_ros_launch_utils.egg-info/SOURCES.txt'
+[2.288s] writing manifest file 'isaac_ros_launch_utils.egg-info/SOURCES.txt'
+[2.359s] running build_ext
+[2.359s] Creating /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_launch_utils/lib/python3.10/site-packages/isaac-ros-launch-utils.egg-link (link to .)
+[2.360s] 
+[2.360s] Installed /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_launch_utils
+[2.360s] running symlink_data
+[2.360s] creating /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_launch_utils/share/ament_index
+[2.361s] creating /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_launch_utils/share/ament_index/resource_index
+[2.361s] creating /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_launch_utils/share/ament_index/resource_index/packages
+[2.361s] symbolically linking /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_launch_utils/resource/isaac_ros_launch_utils -> /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_launch_utils/share/ament_index/resource_index/packages
+[2.361s] symbolically linking /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_launch_utils/package.xml -> /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_launch_utils/share/isaac_ros_launch_utils
+[2.411s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_launch_utils' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_launch_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_launch_utils/lib/python3.10/site-packages:/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_launch_utils/build --no-deps symlink_data

@@ -1,0 +1,68 @@
+[0.512s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces -- -j24 -l24
+[1.097s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.097s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.102s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.103s] [  9%] [34m[1mGenerating version information as YAML[0m
+[1.112s] [  9%] Built target ament_cmake_python_symlink_isaac_ros_apriltag_interfaces
+[1.113s] [  9%] Built target generate_version_info_target_isaac_ros_apriltag_interfaces
+[1.113s] running egg_info
+[1.113s] creating isaac_ros_apriltag_interfaces.egg-info
+[1.113s] writing isaac_ros_apriltag_interfaces.egg-info/PKG-INFO
+[1.114s] writing dependency_links to isaac_ros_apriltag_interfaces.egg-info/dependency_links.txt
+[1.114s] writing top-level names to isaac_ros_apriltag_interfaces.egg-info/top_level.txt
+[1.116s] writing manifest file 'isaac_ros_apriltag_interfaces.egg-info/SOURCES.txt'
+[1.116s] reading manifest file 'isaac_ros_apriltag_interfaces.egg-info/SOURCES.txt'
+[1.117s] writing manifest file 'isaac_ros_apriltag_interfaces.egg-info/SOURCES.txt'
+[1.117s] [  9%] Built target ament_cmake_python_build_isaac_ros_apriltag_interfaces_egg
+[1.192s] [  9%] Built target isaac_ros_apriltag_interfaces__rs
+[1.348s] [  9%] Built target isaac_ros_apriltag_interfaces__cpp
+[1.376s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.381s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.381s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.395s] [ 19%] [32mBuilding C object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_generator_c.dir/rosidl_generator_c/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__functions.c.o[0m
+[1.400s] [ 21%] [32mBuilding C object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_generator_c.dir/rosidl_generator_c/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__functions.c.o[0m
+[1.701s] [ 24%] [32m[1mLinking C shared library libisaac_ros_apriltag_interfaces__rosidl_generator_c.so[0m
+[1.932s] [ 24%] Built target isaac_ros_apriltag_interfaces__rosidl_generator_c
+[1.997s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.007s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.007s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.131s] [ 34%] [32mBuilding CXX object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__type_support.cpp.o[0m
+[2.143s] [ 36%] [32mBuilding CXX object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__type_support.cpp.o[0m
+[2.184s] [ 39%] [32mBuilding CXX object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/isaac_ros_apriltag_interfaces/msg/april_tag_detection_array__type_support.cpp.o[0m
+[2.184s] [ 41%] [32mBuilding CXX object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/isaac_ros_apriltag_interfaces/msg/april_tag_detection__type_support.cpp.o[0m
+[2.744s] [ 43%] [32mBuilding CXX object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/isaac_ros_apriltag_interfaces/msg/detail/dds_fastrtps/april_tag_detection__type_support.cpp.o[0m
+[2.772s] [ 46%] [32mBuilding CXX object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/isaac_ros_apriltag_interfaces/msg/detail/dds_fastrtps/april_tag_detection_array__type_support.cpp.o[0m
+[3.145s] [ 48%] [32mBuilding CXX object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/isaac_ros_apriltag_interfaces/msg/april_tag_detection_array__type_support.cpp.o[0m
+[3.149s] [ 51%] [32mBuilding CXX object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/isaac_ros_apriltag_interfaces/msg/april_tag_detection__type_support.cpp.o[0m
+[3.228s] [ 53%] [32m[1mLinking CXX shared library libisaac_ros_apriltag_interfaces__rosidl_typesupport_c.so[0m
+[3.249s] [ 56%] [32mBuilding C object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__type_support.c.o[0m
+[3.258s] [ 58%] [32mBuilding C object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__type_support.c.o[0m
+[3.340s] [ 60%] [32mBuilding CXX object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__type_support_c.cpp.o[0m
+[3.349s] [ 63%] [32mBuilding CXX object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__type_support_c.cpp.o[0m
+[3.357s] [ 63%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_c
+[3.360s] [ 65%] [32m[1mLinking C shared library libisaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.424s] [ 68%] [32m[1mLinking CXX shared library libisaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.431s] [ 70%] [32m[1mLinking CXX shared library libisaac_ros_apriltag_interfaces__rosidl_typesupport_cpp.so[0m
+[3.501s] [ 70%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_c
+[3.570s] [ 70%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_cpp
+[3.631s] [ 70%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_cpp
+[3.920s] [ 73%] [32m[1mLinking CXX shared library libisaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.950s] [ 75%] [32m[1mLinking CXX shared library libisaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.998s] [ 75%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_c
+[4.025s] [ 75%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_cpp
+[4.042s] [ 75%] Built target isaac_ros_apriltag_interfaces
+[4.059s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.383s] [ 78%] Built target isaac_ros_apriltag_interfaces__py
+[4.406s] [ 80%] [32mBuilding C object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_generator_py.dir/rosidl_generator_py/isaac_ros_apriltag_interfaces/msg/_april_tag_detection_array_s.c.o[0m
+[4.406s] [ 82%] [32mBuilding C object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_generator_py.dir/rosidl_generator_py/isaac_ros_apriltag_interfaces/msg/_april_tag_detection_s.c.o[0m
+[4.532s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_apriltag_interfaces/libisaac_ros_apriltag_interfaces__rosidl_generator_py.so[0m
+[4.582s] [ 85%] Built target isaac_ros_apriltag_interfaces__rosidl_generator_py
+[4.604s] [ 90%] [32mBuilding C object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/isaac_ros_apriltag_interfaces/_isaac_ros_apriltag_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.604s] [ 90%] [32mBuilding C object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/isaac_ros_apriltag_interfaces/_isaac_ros_apriltag_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.605s] [ 92%] [32mBuilding C object CMakeFiles/isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/isaac_ros_apriltag_interfaces/_isaac_ros_apriltag_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.709s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.714s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.747s] [100%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.752s] [100%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.755s] [100%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_c__pyext
+[4.781s] [100%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_c__pyext

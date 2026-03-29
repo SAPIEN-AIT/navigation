@@ -1,0 +1,980 @@
+[0.086s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build', '--symlink-install'][0m
+[0.086s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x79d24b3f38e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79d24b3f33a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79d24b3f33a0>>)[0m
+[0.202s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.202s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.203s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.203s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.203s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.203s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.203s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/edgard/Desktop/AITEAM/nav'
+[0.203s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.203s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.203s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.203s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.203s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.203s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.203s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.203s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.231s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.232s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extension 'ignore'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extension 'ignore_ament_install'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extensions ['colcon_pkg']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extension 'colcon_pkg'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extensions ['colcon_meta']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extension 'colcon_meta'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extensions ['ros']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extension 'ros'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extensions ['cmake', 'python']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extension 'cmake'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extension 'python'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extensions ['python_setup_py']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac) by extension 'python_setup_py'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extension 'ignore'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extension 'ignore_ament_install'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extensions ['colcon_pkg']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extension 'colcon_pkg'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extensions ['colcon_meta']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extension 'colcon_meta'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extensions ['ros']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extension 'ros'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extensions ['cmake', 'python']
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extension 'cmake'
+[0.233s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extension 'python'
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extensions ['python_setup_py']
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac) by extension 'python_setup_py'
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac/build) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac/build) by extension 'ignore'
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac/build) ignored
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac/install) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac/install) by extension 'ignore'
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac/install) ignored
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac/log) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac/log) by extension 'ignore'
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/docker_humble_desktop_isaac/log) ignored
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extension 'ignore'
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extension 'ignore_ament_install'
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extensions ['colcon_pkg']
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extension 'colcon_pkg'
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extensions ['colcon_meta']
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extension 'colcon_meta'
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extensions ['ros']
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extension 'ros'
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extensions ['cmake', 'python']
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extension 'cmake'
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extension 'python'
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extensions ['python_setup_py']
+[0.234s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/scripts) by extension 'python_setup_py'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extension 'ignore'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extension 'ignore_ament_install'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extensions ['colcon_pkg']
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extension 'colcon_pkg'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extensions ['colcon_meta']
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extension 'colcon_meta'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extensions ['ros']
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extension 'ros'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extensions ['cmake', 'python']
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extension 'cmake'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extension 'python'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extensions ['python_setup_py']
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src) by extension 'python_setup_py'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/build) by extension 'ignore'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/build) ignored
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/install) by extension 'ignore'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/install) ignored
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extension 'ignore'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extension 'ignore_ament_install'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extensions ['colcon_pkg']
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extension 'colcon_pkg'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extensions ['colcon_meta']
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extension 'colcon_meta'
+[0.235s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extensions ['ros']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extension 'ros'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extensions ['cmake', 'python']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extension 'cmake'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extension 'python'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extensions ['python_setup_py']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common) by extension 'python_setup_py'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extension 'ignore'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extension 'ignore_ament_install'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extensions ['colcon_pkg']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extension 'colcon_pkg'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extensions ['colcon_meta']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extension 'colcon_meta'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extensions ['ros']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extension 'ros'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extensions ['cmake', 'python']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extension 'cmake'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extension 'python'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extensions ['python_setup_py']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker) by extension 'python_setup_py'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extension 'ignore'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extension 'ignore_ament_install'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extensions ['colcon_pkg']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extension 'colcon_pkg'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extensions ['colcon_meta']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extension 'colcon_meta'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extensions ['ros']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extension 'ros'
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extensions ['cmake', 'python']
+[0.236s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extension 'cmake'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extension 'python'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extensions ['python_setup_py']
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/middleware_profiles) by extension 'python_setup_py'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extension 'ignore'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extension 'ignore_ament_install'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extensions ['colcon_pkg']
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extension 'colcon_pkg'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extensions ['colcon_meta']
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extension 'colcon_meta'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extensions ['ros']
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extension 'ros'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extensions ['cmake', 'python']
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extension 'cmake'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extension 'python'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extensions ['python_setup_py']
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/patches) by extension 'python_setup_py'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extension 'ignore'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extension 'ignore_ament_install'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extensions ['colcon_pkg']
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extension 'colcon_pkg'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extensions ['colcon_meta']
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extension 'colcon_meta'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extensions ['ros']
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extension 'ros'
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extensions ['cmake', 'python']
+[0.237s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extension 'cmake'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extension 'python'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extensions ['python_setup_py']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep) by extension 'python_setup_py'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extension 'ignore'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extension 'ignore_ament_install'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extensions ['colcon_pkg']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extension 'colcon_pkg'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extensions ['colcon_meta']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extension 'colcon_meta'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extensions ['ros']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extension 'ros'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extensions ['cmake', 'python']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extension 'cmake'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extension 'python'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extensions ['python_setup_py']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder) by extension 'python_setup_py'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extension 'ignore'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extension 'ignore_ament_install'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extensions ['colcon_pkg']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extension 'colcon_pkg'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extensions ['colcon_meta']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extension 'colcon_meta'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extensions ['ros']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extension 'ros'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extensions ['cmake', 'python']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extension 'cmake'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extension 'python'
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extensions ['python_setup_py']
+[0.238s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/rosdep/ros-humble-cuda-python-placeholder/DEBIAN) by extension 'python_setup_py'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extension 'ignore'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extension 'ignore_ament_install'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extensions ['colcon_pkg']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extension 'colcon_pkg'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extensions ['colcon_meta']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extension 'colcon_meta'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extensions ['ros']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extension 'ros'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extensions ['cmake', 'python']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extension 'cmake'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extension 'python'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extensions ['python_setup_py']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/scripts) by extension 'python_setup_py'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extension 'ignore'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extension 'ignore_ament_install'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extensions ['colcon_pkg']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extension 'colcon_pkg'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extensions ['colcon_meta']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extension 'colcon_meta'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extensions ['ros']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extension 'ros'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extensions ['cmake', 'python']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extension 'cmake'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extension 'python'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extensions ['python_setup_py']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/docker/udev_rules) by extension 'python_setup_py'
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common) by extension 'ignore'
+[0.240s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common) by extension 'ignore_ament_install'
+[0.240s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common) by extensions ['colcon_pkg']
+[0.240s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common) by extension 'colcon_pkg'
+[0.240s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common) by extensions ['colcon_meta']
+[0.240s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common) by extension 'colcon_meta'
+[0.240s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common) by extensions ['ros']
+[0.240s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common) by extension 'ros'
+[0.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_common' with type 'ros.ament_cmake' and name 'isaac_common'[0m
+[0.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common_py) by extensions ['ignore', 'ignore_ament_install']
+[0.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common_py) by extension 'ignore'
+[0.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common_py) by extension 'ignore_ament_install'
+[0.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common_py) by extensions ['colcon_pkg']
+[0.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common_py) by extension 'colcon_pkg'
+[0.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common_py) by extensions ['colcon_meta']
+[0.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common_py) by extension 'colcon_meta'
+[0.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common_py) by extensions ['ros']
+[0.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_common_py) by extension 'ros'
+[0.242s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_common_py' with type 'ros.ament_python' and name 'isaac_common_py'[0m
+[0.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_apriltag_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_apriltag_interfaces) by extension 'ignore'
+[0.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_apriltag_interfaces) by extension 'ignore_ament_install'
+[0.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_apriltag_interfaces) by extensions ['colcon_pkg']
+[0.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_apriltag_interfaces) by extension 'colcon_pkg'
+[0.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_apriltag_interfaces) by extensions ['colcon_meta']
+[0.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_apriltag_interfaces) by extension 'colcon_meta'
+[0.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_apriltag_interfaces) by extensions ['ros']
+[0.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_apriltag_interfaces) by extension 'ros'
+[0.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_ros_apriltag_interfaces' with type 'ros.ament_cmake' and name 'isaac_ros_apriltag_interfaces'[0m
+[0.243s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_bi3d_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_bi3d_interfaces) by extension 'ignore'
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_bi3d_interfaces) by extension 'ignore_ament_install'
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_bi3d_interfaces) by extensions ['colcon_pkg']
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_bi3d_interfaces) by extension 'colcon_pkg'
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_bi3d_interfaces) by extensions ['colcon_meta']
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_bi3d_interfaces) by extension 'colcon_meta'
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_bi3d_interfaces) by extensions ['ros']
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_bi3d_interfaces) by extension 'ros'
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_ros_bi3d_interfaces' with type 'ros.ament_cmake' and name 'isaac_ros_bi3d_interfaces'[0m
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_common) by extensions ['ignore', 'ignore_ament_install']
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_common) by extension 'ignore'
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_common) by extension 'ignore_ament_install'
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_common) by extensions ['colcon_pkg']
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_common) by extension 'colcon_pkg'
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_common) by extensions ['colcon_meta']
+[0.244s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_common) by extension 'colcon_meta'
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_common) by extensions ['ros']
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_common) by extension 'ros'
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_ros_common' with type 'ros.ament_cmake' and name 'isaac_ros_common'[0m
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_launch_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_launch_utils) by extension 'ignore'
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_launch_utils) by extension 'ignore_ament_install'
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_launch_utils) by extensions ['colcon_pkg']
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_launch_utils) by extension 'colcon_pkg'
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_launch_utils) by extensions ['colcon_meta']
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_launch_utils) by extension 'colcon_meta'
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_launch_utils) by extensions ['ros']
+[0.245s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_launch_utils) by extension 'ros'
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_ros_launch_utils' with type 'ros.ament_python' and name 'isaac_ros_launch_utils'[0m
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nitros_bridge_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nitros_bridge_interfaces) by extension 'ignore'
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nitros_bridge_interfaces) by extension 'ignore_ament_install'
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nitros_bridge_interfaces) by extensions ['colcon_pkg']
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nitros_bridge_interfaces) by extension 'colcon_pkg'
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nitros_bridge_interfaces) by extensions ['colcon_meta']
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nitros_bridge_interfaces) by extension 'colcon_meta'
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nitros_bridge_interfaces) by extensions ['ros']
+[0.246s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nitros_bridge_interfaces) by extension 'ros'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_ros_nitros_bridge_interfaces' with type 'ros.ament_cmake' and name 'isaac_ros_nitros_bridge_interfaces'[0m
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nova_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nova_interfaces) by extension 'ignore'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nova_interfaces) by extension 'ignore_ament_install'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nova_interfaces) by extensions ['colcon_pkg']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nova_interfaces) by extension 'colcon_pkg'
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nova_interfaces) by extensions ['colcon_meta']
+[0.247s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nova_interfaces) by extension 'colcon_meta'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nova_interfaces) by extensions ['ros']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_nova_interfaces) by extension 'ros'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_ros_nova_interfaces' with type 'ros.ament_cmake' and name 'isaac_ros_nova_interfaces'[0m
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_pointcloud_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_pointcloud_interfaces) by extension 'ignore'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_pointcloud_interfaces) by extension 'ignore_ament_install'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_pointcloud_interfaces) by extensions ['colcon_pkg']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_pointcloud_interfaces) by extension 'colcon_pkg'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_pointcloud_interfaces) by extensions ['colcon_meta']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_pointcloud_interfaces) by extension 'colcon_meta'
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_pointcloud_interfaces) by extensions ['ros']
+[0.248s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_pointcloud_interfaces) by extension 'ros'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_ros_pointcloud_interfaces' with type 'ros.ament_cmake' and name 'isaac_ros_pointcloud_interfaces'[0m
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_r2b_galileo) by extensions ['ignore', 'ignore_ament_install']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_r2b_galileo) by extension 'ignore'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_r2b_galileo) by extension 'ignore_ament_install'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_r2b_galileo) by extensions ['colcon_pkg']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_r2b_galileo) by extension 'colcon_pkg'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_r2b_galileo) by extensions ['colcon_meta']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_r2b_galileo) by extension 'colcon_meta'
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_r2b_galileo) by extensions ['ros']
+[0.249s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_r2b_galileo) by extension 'ros'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_ros_r2b_galileo' with type 'ros.ament_cmake' and name 'isaac_ros_r2b_galileo'[0m
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_rosbag_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_rosbag_utils) by extension 'ignore'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_rosbag_utils) by extension 'ignore_ament_install'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_rosbag_utils) by extensions ['colcon_pkg']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_rosbag_utils) by extension 'colcon_pkg'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_rosbag_utils) by extensions ['colcon_meta']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_rosbag_utils) by extension 'colcon_meta'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_rosbag_utils) by extensions ['ros']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_rosbag_utils) by extension 'ros'
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_ros_rosbag_utils' with type 'ros.ament_python' and name 'isaac_ros_rosbag_utils'[0m
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_tensor_list_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_tensor_list_interfaces) by extension 'ignore'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_tensor_list_interfaces) by extension 'ignore_ament_install'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_tensor_list_interfaces) by extensions ['colcon_pkg']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_tensor_list_interfaces) by extension 'colcon_pkg'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_tensor_list_interfaces) by extensions ['colcon_meta']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_tensor_list_interfaces) by extension 'colcon_meta'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_tensor_list_interfaces) by extensions ['ros']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_tensor_list_interfaces) by extension 'ros'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_ros_tensor_list_interfaces' with type 'ros.ament_cmake' and name 'isaac_ros_tensor_list_interfaces'[0m
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test) by extensions ['ignore', 'ignore_ament_install']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test) by extension 'ignore'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test) by extension 'ignore_ament_install'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test) by extensions ['colcon_pkg']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test) by extension 'colcon_pkg'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test) by extensions ['colcon_meta']
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test) by extension 'colcon_meta'
+[0.251s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test) by extensions ['ros']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test) by extension 'ros'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_ros_test' with type 'ros.ament_python' and name 'isaac_ros_test'[0m
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test_cmake) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test_cmake) by extension 'ignore'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test_cmake) by extension 'ignore_ament_install'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test_cmake) by extensions ['colcon_pkg']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test_cmake) by extension 'colcon_pkg'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test_cmake) by extensions ['colcon_meta']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test_cmake) by extension 'colcon_meta'
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test_cmake) by extensions ['ros']
+[0.252s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/isaac_ros_test_cmake) by extension 'ros'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/isaac_ros_common/isaac_ros_test_cmake' with type 'ros.ament_cmake' and name 'isaac_ros_test_cmake'[0m
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extension 'ignore'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extension 'ignore_ament_install'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extensions ['colcon_pkg']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extension 'colcon_pkg'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extensions ['colcon_meta']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extension 'colcon_meta'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extensions ['ros']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extension 'ros'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extensions ['cmake', 'python']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extension 'cmake'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extension 'python'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extensions ['python_setup_py']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts) by extension 'python_setup_py'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extension 'ignore'
+[0.253s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extension 'ignore_ament_install'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extensions ['colcon_pkg']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extension 'colcon_pkg'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extensions ['colcon_meta']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extension 'colcon_meta'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extensions ['ros']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extension 'ros'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extensions ['cmake', 'python']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extension 'cmake'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extension 'python'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extensions ['python_setup_py']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/deploy) by extension 'python_setup_py'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extension 'ignore'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extension 'ignore_ament_install'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extensions ['colcon_pkg']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extension 'colcon_pkg'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extensions ['colcon_meta']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extension 'colcon_meta'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extensions ['ros']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extension 'ros'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extensions ['cmake', 'python']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extension 'cmake'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extension 'python'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extensions ['python_setup_py']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/isaac_ros_common/scripts/utils) by extension 'python_setup_py'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/log) by extension 'ignore'
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/log) ignored
+[0.254s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extension 'ignore'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extension 'ignore_ament_install'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extensions ['colcon_pkg']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extension 'colcon_pkg'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extensions ['colcon_meta']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extension 'colcon_meta'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extensions ['ros']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extension 'ros'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extensions ['cmake', 'python']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extension 'cmake'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extension 'python'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extensions ['python_setup_py']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper) by extension 'python_setup_py'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extension 'ignore'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extension 'ignore_ament_install'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extensions ['colcon_pkg']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extension 'colcon_pkg'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extensions ['colcon_meta']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extension 'colcon_meta'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extensions ['ros']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extension 'ros'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extensions ['cmake', 'python']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extension 'cmake'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extension 'python'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extensions ['python_setup_py']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/docker) by extension 'python_setup_py'
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extension 'ignore'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extension 'ignore_ament_install'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extensions ['colcon_pkg']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extension 'colcon_pkg'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extensions ['colcon_meta']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extension 'colcon_meta'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extensions ['ros']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extension 'ros'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extensions ['cmake', 'python']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extension 'cmake'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extension 'python'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extensions ['python_setup_py']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/images) by extension 'python_setup_py'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_components) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_components) by extension 'ignore'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_components) by extension 'ignore_ament_install'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_components) by extensions ['colcon_pkg']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_components) by extension 'colcon_pkg'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_components) by extensions ['colcon_meta']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_components) by extension 'colcon_meta'
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_components) by extensions ['ros']
+[0.256s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_components) by extension 'ros'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/zed-ros2-wrapper/zed_components' with type 'ros.ament_cmake' and name 'zed_components'[0m
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_ros2) by extension 'ignore'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_ros2) by extension 'ignore_ament_install'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_pkg']
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_pkg'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_ros2) by extensions ['colcon_meta']
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_ros2) by extension 'colcon_meta'
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_ros2) by extensions ['ros']
+[0.257s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_ros2) by extension 'ros'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/zed-ros2-wrapper/zed_ros2' with type 'ros.ament_cmake' and name 'zed_ros2'[0m
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_wrapper) by extension 'ignore_ament_install'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_pkg']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_pkg'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_wrapper) by extensions ['colcon_meta']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_wrapper) by extension 'colcon_meta'
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_wrapper) by extensions ['ros']
+[0.258s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed-ros2-wrapper/zed_wrapper) by extension 'ros'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/zed-ros2-wrapper/zed_wrapper' with type 'ros.ament_cmake' and name 'zed_wrapper'[0m
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed2i_isaac_vslam) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed2i_isaac_vslam) by extension 'ignore'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed2i_isaac_vslam) by extension 'ignore_ament_install'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed2i_isaac_vslam) by extensions ['colcon_pkg']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed2i_isaac_vslam) by extension 'colcon_pkg'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed2i_isaac_vslam) by extensions ['colcon_meta']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed2i_isaac_vslam) by extension 'colcon_meta'
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed2i_isaac_vslam) by extensions ['ros']
+[0.259s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/isaac/src/zed2i_isaac_vslam) by extension 'ros'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/isaac/src/zed2i_isaac_vslam' with type 'ros.ament_cmake' and name 'zed2i_isaac_vslam'[0m
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_bringup) by extension 'ignore'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_bringup) by extension 'ignore_ament_install'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_bringup) by extensions ['colcon_pkg']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_bringup) by extension 'colcon_pkg'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_bringup) by extensions ['colcon_meta']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_bringup) by extension 'colcon_meta'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_bringup) by extensions ['ros']
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_bringup) by extension 'ros'
+[0.260s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mina_bringup' with type 'ros.ament_cmake' and name 'mina_bringup'[0m
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_control) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_control) by extension 'ignore'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_control) by extension 'ignore_ament_install'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_control) by extensions ['colcon_pkg']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_control) by extension 'colcon_pkg'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_control) by extensions ['colcon_meta']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_control) by extension 'colcon_meta'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_control) by extensions ['ros']
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_control) by extension 'ros'
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mina_control' with type 'ros.ament_python' and name 'mina_control'[0m
+[0.261s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_description) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_description) by extension 'ignore'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_description) by extension 'ignore_ament_install'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_description) by extensions ['colcon_pkg']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_description) by extension 'colcon_pkg'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_description) by extensions ['colcon_meta']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_description) by extension 'colcon_meta'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_description) by extensions ['ros']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_description) by extension 'ros'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mina_description' with type 'ros.ament_cmake' and name 'mina_description'[0m
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_hardware) by extension 'ignore'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_hardware) by extension 'ignore_ament_install'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_hardware) by extensions ['colcon_pkg']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_hardware) by extension 'colcon_pkg'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_hardware) by extensions ['colcon_meta']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_hardware) by extension 'colcon_meta'
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_hardware) by extensions ['ros']
+[0.262s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_hardware) by extension 'ros'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mina_hardware' with type 'ros.ament_python' and name 'mina_hardware'[0m
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_interfaces) by extension 'ignore'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_interfaces) by extension 'ignore_ament_install'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_interfaces) by extensions ['colcon_pkg']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_interfaces) by extension 'colcon_pkg'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_interfaces) by extensions ['colcon_meta']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_interfaces) by extension 'colcon_meta'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_interfaces) by extensions ['ros']
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_interfaces) by extension 'ros'
+[0.263s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mina_interfaces' with type 'ros.ament_cmake' and name 'mina_interfaces'[0m
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_navigation) by extension 'ignore'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_navigation) by extension 'ignore_ament_install'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_navigation) by extensions ['colcon_pkg']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_navigation) by extension 'colcon_pkg'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_navigation) by extensions ['colcon_meta']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_navigation) by extension 'colcon_meta'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_navigation) by extensions ['ros']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_navigation) by extension 'ros'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mina_navigation' with type 'ros.ament_cmake' and name 'mina_navigation'[0m
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_simulation) by extension 'ignore'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_simulation) by extension 'ignore_ament_install'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_simulation) by extensions ['colcon_pkg']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_simulation) by extension 'colcon_pkg'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_simulation) by extensions ['colcon_meta']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_simulation) by extension 'colcon_meta'
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_simulation) by extensions ['ros']
+[0.264s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_simulation) by extension 'ros'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mina_simulation' with type 'ros.ament_cmake' and name 'mina_simulation'[0m
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_tasks) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_tasks) by extension 'ignore'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_tasks) by extension 'ignore_ament_install'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_tasks) by extensions ['colcon_pkg']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_tasks) by extension 'colcon_pkg'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_tasks) by extensions ['colcon_meta']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_tasks) by extension 'colcon_meta'
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_tasks) by extensions ['ros']
+[0.265s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src/mina_tasks) by extension 'ros'
+[0.266s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src/mina_tasks' with type 'ros.ament_python' and name 'mina_tasks'[0m
+[0.266s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.266s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.266s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.266s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.266s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.283s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.283s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.284s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 278 installed packages in /opt/ros/humble[0m
+[0.285s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_common' build argument 'cmake_args' from command line to 'None'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_common' build argument 'cmake_target' from command line to 'None'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_ros_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_common', 'symlink_install': True, 'test_result_base': None}[0m
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_description' build argument 'cmake_args' from command line to 'None'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_description' build argument 'cmake_target' from command line to 'None'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mina_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/mina_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/mina_description', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/mina_description', 'symlink_install': True, 'test_result_base': None}[0m
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_hardware' build argument 'cmake_args' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_hardware' build argument 'cmake_target' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mina_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/mina_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/mina_hardware', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/mina_hardware', 'symlink_install': True, 'test_result_base': None}[0m
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mina_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/mina_interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[0.311s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_tasks' build argument 'cmake_args' from command line to 'None'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_tasks' build argument 'cmake_target' from command line to 'None'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_tasks' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_tasks' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_tasks' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_tasks' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_tasks' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_tasks' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_tasks' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mina_tasks' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/mina_tasks', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/mina_tasks', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/mina_tasks', 'symlink_install': True, 'test_result_base': None}[0m
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'cmake_args' from command line to 'None'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'cmake_target' from command line to 'None'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_components' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'zed_components' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/zed_components', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/zed_components', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components', 'symlink_install': True, 'test_result_base': None}[0m
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common' build argument 'cmake_args' from command line to 'None'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common' build argument 'cmake_target' from command line to 'None'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common' build argument 'cmake_clean_cache' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common' build argument 'cmake_clean_first' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common' build argument 'cmake_force_configure' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common' build argument 'ament_cmake_args' from command line to 'None'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common' build argument 'catkin_cmake_args' from command line to 'None'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.312s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_common' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_common', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_common', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_common', 'symlink_install': True, 'test_result_base': None}[0m
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common_py' build argument 'cmake_args' from command line to 'None'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common_py' build argument 'cmake_target' from command line to 'None'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_common_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_common_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_common_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_common_py', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_common_py', 'symlink_install': True, 'test_result_base': None}[0m
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_apriltag_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_apriltag_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_apriltag_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_apriltag_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_apriltag_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_apriltag_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_apriltag_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_apriltag_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_apriltag_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_ros_apriltag_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_apriltag_interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_bi3d_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_bi3d_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_bi3d_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_bi3d_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_bi3d_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_bi3d_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_bi3d_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_bi3d_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_bi3d_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.313s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_ros_bi3d_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_bi3d_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_bi3d_interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_launch_utils' build argument 'cmake_args' from command line to 'None'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_launch_utils' build argument 'cmake_target' from command line to 'None'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_launch_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_launch_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_launch_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_launch_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_launch_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_launch_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_launch_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_ros_launch_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_launch_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_launch_utils', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_launch_utils', 'symlink_install': True, 'test_result_base': None}[0m
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nova_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nova_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nova_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nova_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nova_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nova_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nova_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nova_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nova_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_ros_nova_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_nova_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_nova_interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_pointcloud_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_pointcloud_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_pointcloud_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_pointcloud_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_pointcloud_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_pointcloud_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_pointcloud_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_pointcloud_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_pointcloud_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.314s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_ros_pointcloud_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_pointcloud_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_pointcloud_interfaces', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_pointcloud_interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_r2b_galileo' build argument 'cmake_args' from command line to 'None'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_r2b_galileo' build argument 'cmake_target' from command line to 'None'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_r2b_galileo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_r2b_galileo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_r2b_galileo' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_r2b_galileo' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_r2b_galileo' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_r2b_galileo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_r2b_galileo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_ros_r2b_galileo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_r2b_galileo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_r2b_galileo', 'symlink_install': True, 'test_result_base': None}[0m
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_tensor_list_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_tensor_list_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_tensor_list_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_tensor_list_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_tensor_list_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_tensor_list_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_tensor_list_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_tensor_list_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_tensor_list_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_ros_tensor_list_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_tensor_list_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_tensor_list_interfaces', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_tensor_list_interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test' build argument 'cmake_args' from command line to 'None'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test' build argument 'cmake_target' from command line to 'None'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test' build argument 'cmake_clean_cache' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test' build argument 'cmake_clean_first' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test' build argument 'cmake_force_configure' from command line to 'False'
+[0.315s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_ros_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_test', 'symlink_install': True, 'test_result_base': None}[0m
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_control' build argument 'cmake_args' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_control' build argument 'cmake_target' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mina_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/mina_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/mina_control', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/mina_control', 'symlink_install': True, 'test_result_base': None}[0m
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_navigation' build argument 'cmake_args' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_navigation' build argument 'cmake_target' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mina_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/mina_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/mina_navigation', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/mina_navigation', 'symlink_install': True, 'test_result_base': None}[0m
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_simulation' build argument 'cmake_args' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_simulation' build argument 'cmake_target' from command line to 'None'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.316s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mina_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/mina_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/mina_simulation', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/mina_simulation', 'symlink_install': True, 'test_result_base': None}[0m
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'cmake_args' from command line to 'None'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'cmake_target' from command line to 'None'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_wrapper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'zed_wrapper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/zed_wrapper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_wrapper', 'symlink_install': True, 'test_result_base': None}[0m
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nitros_bridge_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nitros_bridge_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nitros_bridge_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nitros_bridge_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nitros_bridge_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nitros_bridge_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nitros_bridge_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nitros_bridge_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_nitros_bridge_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_ros_nitros_bridge_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_nitros_bridge_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_nitros_bridge_interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[0.317s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_rosbag_utils' build argument 'cmake_args' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_rosbag_utils' build argument 'cmake_target' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_rosbag_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_rosbag_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_rosbag_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_rosbag_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_rosbag_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_rosbag_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_rosbag_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_ros_rosbag_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_rosbag_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_rosbag_utils', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_rosbag_utils', 'symlink_install': True, 'test_result_base': None}[0m
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test_cmake' build argument 'cmake_args' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test_cmake' build argument 'cmake_target' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test_cmake' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test_cmake' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test_cmake' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test_cmake' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test_cmake' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test_cmake' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'isaac_ros_test_cmake' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'isaac_ros_test_cmake' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_test_cmake', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_test_cmake', 'symlink_install': True, 'test_result_base': None}[0m
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_bringup' build argument 'cmake_args' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_bringup' build argument 'cmake_target' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'mina_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.318s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'mina_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/mina_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/mina_bringup', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/mina_bringup', 'symlink_install': True, 'test_result_base': None}[0m
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed2i_isaac_vslam' build argument 'cmake_args' from command line to 'None'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed2i_isaac_vslam' build argument 'cmake_target' from command line to 'None'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed2i_isaac_vslam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed2i_isaac_vslam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed2i_isaac_vslam' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed2i_isaac_vslam' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed2i_isaac_vslam' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed2i_isaac_vslam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed2i_isaac_vslam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'zed2i_isaac_vslam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed2i_isaac_vslam', 'symlink_install': True, 'test_result_base': None}[0m
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'cmake_args' from command line to 'None'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'cmake_target' from command line to 'None'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'zed_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.319s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'zed_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/edgard/Desktop/AITEAM/nav/build/zed_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/edgard/Desktop/AITEAM/nav/install/zed_ros2', 'merge_install': False, 'path': '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_ros2', 'symlink_install': True, 'test_result_base': None}[0m
+[0.319s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.320s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.320s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_common' with build type 'ament_cmake'
+[0.320s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_common'
+[0.323s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.323s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.323s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.325s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/edgard/Desktop/AITEAM/nav/src/mina_description' with build type 'ament_cmake'
+[0.325s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/edgard/Desktop/AITEAM/nav/src/mina_description'
+[0.325s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.325s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.327s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components' with build type 'ament_cmake'
+[0.327s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components'
+[0.328s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.328s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.330s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/edgard/Desktop/AITEAM/nav/src/mina_interfaces' with build type 'ament_cmake'
+[0.330s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/edgard/Desktop/AITEAM/nav/src/mina_interfaces'
+[0.330s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.330s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.332s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/edgard/Desktop/AITEAM/nav/src/mina_hardware' with build type 'ament_python'
+[0.332s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mina_hardware', 'ament_prefix_path')
+[0.332s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/edgard/Desktop/AITEAM/nav/install/mina_hardware/share/mina_hardware/hook/ament_prefix_path.ps1'
+[0.332s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/edgard/Desktop/AITEAM/nav/install/mina_hardware/share/mina_hardware/hook/ament_prefix_path.dsv'
+[0.333s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/edgard/Desktop/AITEAM/nav/install/mina_hardware/share/mina_hardware/hook/ament_prefix_path.sh'
+[0.333s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.333s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.335s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/edgard/Desktop/AITEAM/nav/src/mina_tasks' with build type 'ament_python'
+[0.335s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mina_tasks', 'ament_prefix_path')
+[0.335s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/edgard/Desktop/AITEAM/nav/install/mina_tasks/share/mina_tasks/hook/ament_prefix_path.ps1'
+[0.336s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/edgard/Desktop/AITEAM/nav/install/mina_tasks/share/mina_tasks/hook/ament_prefix_path.dsv'
+[0.336s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/edgard/Desktop/AITEAM/nav/install/mina_tasks/share/mina_tasks/hook/ament_prefix_path.sh'
+[0.336s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.336s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.342s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_common': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common[0m
+[0.343s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/mina_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/mina_description[0m
+[0.345s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/edgard/Desktop/AITEAM/nav/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/zed_components[0m
+[0.347s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/mina_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces[0m
+[0.556s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/edgard/Desktop/AITEAM/nav/src/mina_hardware'
+[0.557s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.557s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.767s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/edgard/Desktop/AITEAM/nav/src/mina_tasks'
+[0.767s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.768s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.935s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/edgard/Desktop/AITEAM/nav/build/mina_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/mina_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/mina_description[0m
+[0.937s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/mina_description -- -j24 -l24[0m
+[0.971s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/edgard/Desktop/AITEAM/nav/build/mina_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/mina_description -- -j24 -l24[0m
+[0.979s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/mina_description[0m
+[1.089s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_hardware': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/mina_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/mina_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/mina_hardware/build --no-deps symlink_data[0m
+[1.102s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_tasks': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/mina_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/mina_tasks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/mina_tasks/build --no-deps symlink_data[0m
+[1.365s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mina_description)
+[1.366s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/edgard/Desktop/AITEAM/nav/build/mina_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/mina_description[0m
+[1.367s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/mina_description' for CMake module files
+[1.367s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/mina_description' for CMake config files
+[1.368s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mina_description', 'cmake_prefix_path')
+[1.370s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/hook/cmake_prefix_path.ps1'
+[1.370s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/hook/cmake_prefix_path.dsv'
+[1.371s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/hook/cmake_prefix_path.sh'
+[1.371s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/mina_description/bin'
+[1.371s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/mina_description/lib/pkgconfig/mina_description.pc'
+[1.372s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/mina_description/lib/python3.10/site-packages'
+[1.373s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/mina_description/bin'
+[1.373s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/package.ps1'
+[1.374s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/package.dsv'
+[1.374s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/package.sh'
+[1.375s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/package.bash'
+[1.378s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/package.zsh'
+[1.379s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/colcon-core/packages/mina_description)
+[1.379s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(mina_description)
+[1.379s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/mina_description' for CMake module files
+[1.383s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/mina_description' for CMake config files
+[1.383s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('mina_description', 'cmake_prefix_path')
+[1.383s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/hook/cmake_prefix_path.ps1'
+[1.384s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/hook/cmake_prefix_path.dsv'
+[1.384s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/hook/cmake_prefix_path.sh'
+[1.384s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/mina_description/bin'
+[1.384s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/mina_description/lib/pkgconfig/mina_description.pc'
+[1.385s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/mina_description/lib/python3.10/site-packages'
+[1.385s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/mina_description/bin'
+[1.385s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/package.ps1'
+[1.385s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/package.dsv'
+[1.386s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/package.sh'
+[1.390s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/package.bash'
+[1.390s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/package.zsh'
+[1.391s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/edgard/Desktop/AITEAM/nav/install/mina_description/share/colcon-core/packages/mina_description)
+[1.391s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/edgard/Desktop/AITEAM/nav/src/mina_navigation' with build type 'ament_cmake'
+[1.391s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/edgard/Desktop/AITEAM/nav/src/mina_navigation'
+[1.391s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.391s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.397s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_common' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common[0m
+[1.403s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_navigation': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/mina_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/mina_navigation[0m
+[1.411s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(isaac_ros_common)
+[1.412s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common' for CMake module files
+[1.412s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common' for CMake config files
+[1.412s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin'
+[1.412s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib/pkgconfig/isaac_ros_common.pc'
+[1.412s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib/python3.10/site-packages'
+[1.413s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin'
+[1.413s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/share/isaac_ros_common/package.ps1'
+[1.416s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/share/isaac_ros_common/package.dsv'
+[1.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/share/isaac_ros_common/package.sh'
+[1.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/share/isaac_ros_common/package.bash'
+[1.417s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/share/isaac_ros_common/package.zsh'
+[1.417s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/share/colcon-core/packages/isaac_ros_common)
+[1.989s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.989s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.989s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '1'[0m
+[1.990s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.995s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.995s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.995s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[2.006s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[2.006s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/edgard/Desktop/AITEAM/nav/install/local_setup.ps1'
+[2.007s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/edgard/Desktop/AITEAM/nav/install/_local_setup_util_ps1.py'
+[2.008s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/edgard/Desktop/AITEAM/nav/install/setup.ps1'
+[2.008s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/edgard/Desktop/AITEAM/nav/install/local_setup.sh'
+[2.009s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/edgard/Desktop/AITEAM/nav/install/_local_setup_util_sh.py'
+[2.009s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/edgard/Desktop/AITEAM/nav/install/setup.sh'
+[2.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/edgard/Desktop/AITEAM/nav/install/local_setup.bash'
+[2.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/edgard/Desktop/AITEAM/nav/install/setup.bash'
+[2.010s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/edgard/Desktop/AITEAM/nav/install/local_setup.zsh'
+[2.011s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/edgard/Desktop/AITEAM/nav/install/setup.zsh'

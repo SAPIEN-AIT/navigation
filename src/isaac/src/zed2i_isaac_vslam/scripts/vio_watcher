@@ -1,0 +1,123 @@
+#!/usr/bin/env python3
+
+import copy
+import math
+
+from geometry_msgs.msg import PoseStamped
+from nav_msgs.msg import Odometry
+import rclpy
+from rclpy.node import Node
+from rclpy.qos import QoSProfile, qos_profile_sensor_data
+
+
+class VioWatcher(Node):
+    """VSLAM + VIO fusion. No resets.
+
+    - Publishes VSLAM when stable
+    - If output would jump more than max_output_jump_m, reject and publish VIO
+    - No VSLAM reset ever
+    """
+
+    def __init__(self):
+        super().__init__('vio_watcher')
+
+        self.declare_parameter('vslam_vo_pose_topic', '/visual_slam/tracking/vo_pose')
+        self.declare_parameter('fused_pose_topic', '/fused_pose')
+        self.declare_parameter('reference_odom_topic', '/zed2i/zed_node/odom')
+        self.declare_parameter('max_output_jump_m', 0.3)
+
+        self.vslam_vo_pose_topic = self.get_parameter('vslam_vo_pose_topic').value
+        self.fused_pose_topic = self.get_parameter('fused_pose_topic').value
+        self.reference_odom_topic = self.get_parameter('reference_odom_topic').value
+        self.max_output_jump_m = float(self.get_parameter('max_output_jump_m').value)
+
+        self.last_published_pose = None
+        self.latest_vslam_pose = None
+        self.latest_vio_odom = None
+        self.rejected_count = 0
+
+        self.fused_pose_pub = self.create_publisher(
+            PoseStamped, self.fused_pose_topic, QoSProfile(depth=10))
+        self.offset_pose_pub = self.create_publisher(
+            PoseStamped, '/visual_slam/tracking/offset_vo_pose', QoSProfile(depth=10))
+
+        self.vo_pose_sub = self.create_subscription(
+            PoseStamped, self.vslam_vo_pose_topic, self._vslam_callback, qos_profile_sensor_data)
+        self.vio_sub = self.create_subscription(
+            Odometry, self.reference_odom_topic, self._vio_callback, qos_profile_sensor_data)
+
+        self.create_timer(2.0, self._debug_status)
+
+        self.get_logger().info(
+            'VIO Watcher v6 (no reset) | max_output_jump=%.3f m' % self.max_output_jump_m)
+
+    def _vio_callback(self, msg):
+        self.latest_vio_odom = msg
+
+    def _vslam_callback(self, msg):
+        self.latest_vslam_pose = msg
+
+        # First pose — just publish
+        if self.last_published_pose is None:
+            self._publish(msg)
+            return
+
+        # Check if VSLAM pose jumps too far from last published
+        dx = msg.pose.position.x - self.last_published_pose.pose.position.x
+        dy = msg.pose.position.y - self.last_published_pose.pose.position.y
+        dz = msg.pose.position.z - self.last_published_pose.pose.position.z
+        jump = math.sqrt(dx*dx + dy*dy + dz*dz)
+
+        if jump <= self.max_output_jump_m:
+            # Good — publish VSLAM
+            self._publish(msg)
+        else:
+            # Bad — publish VIO instead
+            self.rejected_count += 1
+            if self.latest_vio_odom is not None:
+                vio_pose = PoseStamped()
+                vio_pose.header = self.latest_vio_odom.header
+                vio_pose.header.frame_id = 'map'
+                vio_pose.pose = copy.deepcopy(self.latest_vio_odom.pose.pose)
+                self._publish(vio_pose)
+
+    def _publish(self, msg):
+        self.fused_pose_pub.publish(msg)
+        self.offset_pose_pub.publish(msg)
+        self.last_published_pose = msg
+
+    def _debug_status(self):
+        out_pos = vslam_pos = vio_pos = '---'
+        if self.last_published_pose is not None:
+            p = self.last_published_pose.pose.position
+            out_pos = '%.3f, %.3f, %.3f' % (p.x, p.y, p.z)
+        if self.latest_vslam_pose is not None:
+            p = self.latest_vslam_pose.pose.position
+            vslam_pos = '%.3f, %.3f, %.3f' % (p.x, p.y, p.z)
+        if self.latest_vio_odom is not None:
+            p = self.latest_vio_odom.pose.pose.position
+            vio_pos = '%.3f, %.3f, %.3f' % (p.x, p.y, p.z)
+        self.get_logger().info(
+            'OUT=(%s) | VSLAM=(%s) | VIO=(%s) | rej=%d'
+            % (out_pos, vslam_pos, vio_pos, self.rejected_count))
+
+    @staticmethod
+    def _pose_distance(a, b):
+        dx = b.pose.position.x - a.pose.position.x
+        dy = b.pose.position.y - a.pose.position.y
+        dz = b.pose.position.z - a.pose.position.z
+        return math.sqrt(dx*dx + dy*dy + dz*dz)
+
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = VioWatcher()
+    try:
+        rclpy.spin(node)
+    finally:
+        node.destroy_node()
+        rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

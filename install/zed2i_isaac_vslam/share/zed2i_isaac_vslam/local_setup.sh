@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam/ament_cmake_environment_hooks/local_setup.sh

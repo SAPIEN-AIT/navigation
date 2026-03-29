@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_pointcloud_interfaces/rosidl_generator_rs/isaac_ros_pointcloud_interfaces/rust/src/msg.rs

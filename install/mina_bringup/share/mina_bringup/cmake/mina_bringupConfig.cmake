@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_bringup/ament_cmake_core/mina_bringupConfig.cmake

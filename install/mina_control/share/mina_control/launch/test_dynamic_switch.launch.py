@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_control/launch/test_dynamic_switch.launch.py

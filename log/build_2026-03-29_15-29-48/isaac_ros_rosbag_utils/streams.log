@@ -1,0 +1,19 @@
+[1.024s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_rosbag_utils': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo:/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo:/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_rosbag_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_rosbag_utils/lib/python3.10/site-packages:/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_rosbag_utils/build --no-deps symlink_data
+[1.220s] running develop
+[1.334s] running egg_info
+[1.334s] writing isaac_ros_rosbag_utils.egg-info/PKG-INFO
+[1.334s] writing dependency_links to isaac_ros_rosbag_utils.egg-info/dependency_links.txt
+[1.334s] writing entry points to isaac_ros_rosbag_utils.egg-info/entry_points.txt
+[1.334s] writing requirements to isaac_ros_rosbag_utils.egg-info/requires.txt
+[1.334s] writing top-level names to isaac_ros_rosbag_utils.egg-info/top_level.txt
+[1.335s] package init file 'isaac_ros_rosbag_utils/scripts/__init__.py' not found (or not a regular file)
+[1.335s] reading manifest file 'isaac_ros_rosbag_utils.egg-info/SOURCES.txt'
+[1.336s] writing manifest file 'isaac_ros_rosbag_utils.egg-info/SOURCES.txt'
+[1.376s] running build_ext
+[1.376s] Creating /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_rosbag_utils/lib/python3.10/site-packages/isaac-ros-rosbag-utils.egg-link (link to .)
+[1.377s] Installing extract_edex script to /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_rosbag_utils/lib/isaac_ros_rosbag_utils
+[1.377s] Installing extract_urdf script to /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_rosbag_utils/lib/isaac_ros_rosbag_utils
+[1.378s] 
+[1.378s] Installed /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_rosbag_utils
+[1.378s] running symlink_data
+[1.403s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_rosbag_utils' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo:/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo:/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_rosbag_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_rosbag_utils/lib/python3.10/site-packages:/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_rosbag_utils/build --no-deps symlink_data

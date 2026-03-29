@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces/rosidl_generator_c/mina_interfaces/srv/detail/switch_control__struct.h

@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces/rosidl_generator_rs/mina_interfaces/rust/src/srv/rmw.rs

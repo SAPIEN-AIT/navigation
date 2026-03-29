@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces/rosidl_generator_cpp/mina_interfaces/msg/detail/example__type_support.hpp

@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/launch/isaac_sim.launch.py
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/ament_index/resource_index/package_run_dependencies/mina_simulation
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/ament_index/resource_index/parent_prefix_path/mina_simulation
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/environment/ament_prefix_path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/environment/path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/environment/path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/local_setup.bash
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/local_setup.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/local_setup.zsh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/local_setup.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/package.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/ament_index/resource_index/packages/mina_simulation
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/cmake/mina_simulationConfig.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/cmake/mina_simulationConfig-version.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_simulation/share/mina_simulation/package.xml

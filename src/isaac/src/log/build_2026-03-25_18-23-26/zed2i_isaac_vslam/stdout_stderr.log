@@ -1,0 +1,41 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xplore/dev_ws/src/src/build/zed2i_isaac_vslam
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/config/SN38462249.conf
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/config/visual_slam.yaml
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/config/zed2i_camera.yaml
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/launch/zed2i_isaac_vslam.launch.py
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/rviz/zed2i_isaac_vslam.rviz
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/lib/zed2i_isaac_vslam/vio_watcher
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/ament_index/resource_index/package_run_dependencies/zed2i_isaac_vslam
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/ament_index/resource_index/parent_prefix_path/zed2i_isaac_vslam
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/environment/ament_prefix_path.sh
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/environment/ament_prefix_path.dsv
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/environment/path.sh
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/environment/path.dsv
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/local_setup.bash
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/local_setup.sh
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/local_setup.zsh
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/local_setup.dsv
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/package.dsv
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/ament_index/resource_index/packages/zed2i_isaac_vslam
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/cmake/zed2i_isaac_vslamConfig.cmake
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/cmake/zed2i_isaac_vslamConfig-version.cmake
+-- Symlinking: /home/xplore/dev_ws/src/src/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/package.xml

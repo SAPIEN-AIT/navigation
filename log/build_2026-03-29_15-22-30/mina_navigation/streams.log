@@ -1,0 +1,24 @@
+[0.007s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_navigation': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/mina_navigation -- -j24 -l24
+[0.047s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/mina_navigation' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/mina_navigation -- -j24 -l24
+[0.048s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_navigation': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/mina_navigation
+[0.054s] -- Install configuration: ""
+[0.055s] -- Execute custom install script
+[0.055s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/config/nav2_param.yaml
+[0.055s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/launch/navigation.launch.py
+[0.056s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/param/nav2_params.yaml
+[0.056s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/ament_index/resource_index/package_run_dependencies/mina_navigation
+[0.056s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/ament_index/resource_index/parent_prefix_path/mina_navigation
+[0.056s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/environment/ament_prefix_path.sh
+[0.056s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/environment/ament_prefix_path.dsv
+[0.056s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/environment/path.sh
+[0.056s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/environment/path.dsv
+[0.056s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/local_setup.bash
+[0.056s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/local_setup.sh
+[0.056s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/local_setup.zsh
+[0.057s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/local_setup.dsv
+[0.057s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/package.dsv
+[0.064s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/ament_index/resource_index/packages/mina_navigation
+[0.064s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/cmake/mina_navigationConfig.cmake
+[0.065s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/cmake/mina_navigationConfig-version.cmake
+[0.065s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/package.xml
+[0.067s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/mina_navigation' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_description:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/mina_navigation

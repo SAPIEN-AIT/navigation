@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_bi3d_interfaces/msg/Bi3DInferenceParametersArray.msg

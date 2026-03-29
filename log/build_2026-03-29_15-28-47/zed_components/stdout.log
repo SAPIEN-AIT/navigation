@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target zed_camera_component[0m
+[35m[1mConsolidate compiler generated dependencies of target zed_camera_one_component[0m
+[ 50%] Built target zed_camera_component
+[ 60%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/zed_camera/src/zed_camera_one_component.cpp.o[0m

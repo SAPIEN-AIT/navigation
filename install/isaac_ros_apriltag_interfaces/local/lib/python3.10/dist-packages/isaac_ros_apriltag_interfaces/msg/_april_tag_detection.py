@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces/rosidl_generator_py/isaac_ros_apriltag_interfaces/msg/_april_tag_detection.py

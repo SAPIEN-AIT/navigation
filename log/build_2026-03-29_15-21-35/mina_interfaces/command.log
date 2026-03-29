@@ -1,0 +1,1 @@
+Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/mina_interfaces -- -j24 -l24

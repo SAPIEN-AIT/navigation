@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

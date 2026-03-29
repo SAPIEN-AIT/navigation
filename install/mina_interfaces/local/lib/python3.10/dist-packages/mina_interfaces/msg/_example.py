@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces/rosidl_generator_py/mina_interfaces/msg/_example.py

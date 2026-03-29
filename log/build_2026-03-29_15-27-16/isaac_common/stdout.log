@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[ 22%] Built target gtest_main
+[ 33%] Built target generate_version_info_target_isaac_common
+[ 55%] Built target gtest
+[35m[1mConsolidate compiler generated dependencies of target isaac_common_test_message_buffer[0m
+[35m[1mConsolidate compiler generated dependencies of target isaac_common_test_message_stream_synchronizer[0m
+[ 77%] Built target isaac_common_test_message_buffer
+[100%] Built target isaac_common_test_message_stream_synchronizer
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/version_info.yaml
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/include/isaac_common/messaging/message_buffer.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/include/isaac_common/messaging/message_stream_synchronizer.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/ament_index/resource_index/package_run_dependencies/isaac_common
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/ament_index/resource_index/parent_prefix_path/isaac_common
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/environment/ament_prefix_path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/environment/ament_prefix_path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/environment/path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/environment/path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/local_setup.bash
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/local_setup.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/local_setup.zsh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/local_setup.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/package.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/ament_index/resource_index/packages/isaac_common
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/cmake/isaac_commonConfig.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/cmake/isaac_commonConfig-version.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/package.xml

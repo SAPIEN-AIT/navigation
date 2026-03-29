@@ -1,0 +1,33 @@
+slam_toolbox:
+  ros__parameters:
+    # Solver
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+
+    # Frames
+    odom_frame: odom
+    map_frame: map
+    base_frame: zed2i_camera_center
+    scan_topic: /scan_virtual
+
+    # Mode
+    mode: mapping
+    use_sim_time: false
+
+    # Map resolution and update
+    resolution: 0.05
+    max_laser_range: 8.0
+    minimum_time_interval: 0.5
+    transform_timeout: 0.5
+    tf_buffer_duration: 30.0
+
+    # Loop closure
+    do_loop_closing: true
+    loop_search_maximum_distance: 4.0
+    loop_match_minimum_response_fine: 0.1
+
+    # Save map
+    map_file_name: /tmp/zed2i_map
+    map_start_at_dock: false

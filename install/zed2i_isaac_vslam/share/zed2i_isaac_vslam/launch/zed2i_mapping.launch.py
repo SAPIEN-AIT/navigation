@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed2i_isaac_vslam/launch/zed2i_mapping.launch.py

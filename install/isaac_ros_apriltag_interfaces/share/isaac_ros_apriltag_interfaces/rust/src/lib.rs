@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces/rosidl_generator_rs/isaac_ros_apriltag_interfaces/rust/src/lib.rs

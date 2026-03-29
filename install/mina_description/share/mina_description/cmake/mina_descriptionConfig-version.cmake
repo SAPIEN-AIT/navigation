@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_description/ament_cmake_core/mina_descriptionConfig-version.cmake

@@ -1,0 +1,17 @@
+[0.753s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_hardware': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/mina_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/mina_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/mina_hardware/build --no-deps symlink_data
+[0.958s] running develop
+[1.074s] running egg_info
+[1.074s] writing mina_hardware.egg-info/PKG-INFO
+[1.074s] writing dependency_links to mina_hardware.egg-info/dependency_links.txt
+[1.074s] writing entry points to mina_hardware.egg-info/entry_points.txt
+[1.074s] writing requirements to mina_hardware.egg-info/requires.txt
+[1.074s] writing top-level names to mina_hardware.egg-info/top_level.txt
+[1.074s] reading manifest file 'mina_hardware.egg-info/SOURCES.txt'
+[1.074s] writing manifest file 'mina_hardware.egg-info/SOURCES.txt'
+[1.118s] running build_ext
+[1.118s] Creating /home/edgard/Desktop/AITEAM/nav/install/mina_hardware/lib/python3.10/site-packages/mina-hardware.egg-link (link to .)
+[1.118s] Installing can_driver script to /home/edgard/Desktop/AITEAM/nav/install/mina_hardware/lib/mina_hardware
+[1.118s] Installing imu_driver script to /home/edgard/Desktop/AITEAM/nav/install/mina_hardware/lib/mina_hardware
+[1.118s] 
+[1.118s] Installed /home/edgard/Desktop/AITEAM/nav/build/mina_hardware
+[1.118s] running symlink_data

@@ -1,0 +1,146 @@
+[0.528s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_nova_interfaces': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_nova_interfaces -- -j24 -l24
+[0.761s] [  9%] Built target isaac_ros_nova_interfaces__rosidl_generator_c
+[0.761s] [ 12%] Built target isaac_ros_nova_interfaces__cpp
+[0.761s] [ 17%] Built target generate_version_info_target_isaac_ros_nova_interfaces
+[0.761s] [ 17%] Built target isaac_ros_nova_interfaces__rs
+[0.761s] [ 17%] Built target ament_cmake_python_symlink_isaac_ros_nova_interfaces
+[0.762s] [ 26%] Built target isaac_ros_nova_interfaces__rosidl_typesupport_fastrtps_c
+[0.762s] [ 36%] Built target isaac_ros_nova_interfaces__rosidl_typesupport_cpp
+[0.762s] [ 46%] Built target isaac_ros_nova_interfaces__rosidl_typesupport_introspection_cpp
+[0.762s] [ 56%] Built target isaac_ros_nova_interfaces__rosidl_typesupport_c
+[0.762s] [ 65%] Built target isaac_ros_nova_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.762s] [ 75%] Built target isaac_ros_nova_interfaces__rosidl_typesupport_introspection_c
+[0.762s] [ 75%] Built target isaac_ros_nova_interfaces
+[0.762s] [ 78%] Built target isaac_ros_nova_interfaces__py
+[0.762s] [ 85%] Built target isaac_ros_nova_interfaces__rosidl_generator_py
+[0.762s] [ 90%] Built target isaac_ros_nova_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.762s] [ 95%] Built target isaac_ros_nova_interfaces__rosidl_typesupport_c__pyext
+[0.762s] [100%] Built target isaac_ros_nova_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.782s] running egg_info
+[0.786s] writing isaac_ros_nova_interfaces.egg-info/PKG-INFO
+[0.786s] writing dependency_links to isaac_ros_nova_interfaces.egg-info/dependency_links.txt
+[0.786s] writing top-level names to isaac_ros_nova_interfaces.egg-info/top_level.txt
+[0.786s] reading manifest file 'isaac_ros_nova_interfaces.egg-info/SOURCES.txt'
+[0.786s] writing manifest file 'isaac_ros_nova_interfaces.egg-info/SOURCES.txt'
+[0.810s] [100%] Built target ament_cmake_python_build_isaac_ros_nova_interfaces_egg
+[1.025s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_nova_interfaces' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_nova_interfaces -- -j24 -l24
+[1.026s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_nova_interfaces': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_nova_interfaces
+[1.078s] -- Install configuration: "Release"
+[1.080s] -- Execute custom install script
+[1.081s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/ament_index/resource_index/rosidl_interfaces/isaac_ros_nova_interfaces
+[1.084s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/correlated_timestamp.h
+[1.085s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/correlated_timestamp__functions.h
+[1.085s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/correlated_timestamp__struct.h
+[1.085s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/correlated_timestamp__type_support.h
+[1.085s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/encoder_ticks__functions.h
+[1.085s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/encoder_ticks__struct.h
+[1.085s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/encoder_ticks__type_support.h
+[1.085s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/encoder_ticks.h
+[1.085s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.086s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/environment/library_path.sh
+[1.086s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/environment/library_path.dsv
+[1.086s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/correlated_timestamp__rosidl_typesupport_fastrtps_c.h
+[1.086s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/encoder_ticks__rosidl_typesupport_fastrtps_c.h
+[1.086s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.087s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/correlated_timestamp__rosidl_typesupport_introspection_c.h
+[1.087s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/encoder_ticks__rosidl_typesupport_introspection_c.h
+[1.087s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.087s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/correlated_timestamp.hpp
+[1.087s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/correlated_timestamp__builder.hpp
+[1.088s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/correlated_timestamp__struct.hpp
+[1.088s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/correlated_timestamp__traits.hpp
+[1.088s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/correlated_timestamp__type_support.hpp
+[1.088s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/encoder_ticks__builder.hpp
+[1.088s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/encoder_ticks__struct.hpp
+[1.088s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/encoder_ticks__traits.hpp
+[1.089s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/encoder_ticks__type_support.hpp
+[1.089s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/encoder_ticks.hpp
+[1.089s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.089s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/correlated_timestamp__rosidl_typesupport_fastrtps_cpp.hpp
+[1.089s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/encoder_ticks__rosidl_typesupport_fastrtps_cpp.hpp
+[1.089s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.089s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/correlated_timestamp__rosidl_typesupport_introspection_cpp.hpp
+[1.089s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/include/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces/msg/detail/encoder_ticks__rosidl_typesupport_introspection_cpp.hpp
+[1.089s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/environment/pythonpath.sh
+[1.090s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/environment/pythonpath.dsv
+[1.090s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces-3.2.5-py3.10.egg-info/PKG-INFO
+[1.090s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces-3.2.5-py3.10.egg-info/SOURCES.txt
+[1.090s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces-3.2.5-py3.10.egg-info/dependency_links.txt
+[1.090s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces-3.2.5-py3.10.egg-info/top_level.txt
+[1.090s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/__init__.py
+[1.091s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/_isaac_ros_nova_interfaces_s.ep.rosidl_typesupport_c.c
+[1.091s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/_isaac_ros_nova_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.091s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/_isaac_ros_nova_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.091s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.091s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.091s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.091s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/libisaac_ros_nova_interfaces__rosidl_generator_py.so
+[1.091s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/msg/__init__.py
+[1.091s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/msg/_correlated_timestamp.py
+[1.091s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/msg/_correlated_timestamp_s.c
+[1.091s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/msg/_encoder_ticks.py
+[1.092s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/msg/_encoder_ticks_s.c
+[1.092s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.092s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.092s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/isaac_ros_nova_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.092s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/ament_index/resource_index/rust_packages/isaac_ros_nova_interfaces
+[1.092s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/rust/Cargo.toml
+[1.092s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/rust/build.rs
+[1.092s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/rust/src/lib.rs
+[1.093s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/rust/src/msg.rs
+[1.093s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/rust/src/msg/rmw.rs
+[1.094s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/msg/CorrelatedTimestamp.idl
+[1.094s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/msg/EncoderTicks.idl
+[1.094s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/msg/CorrelatedTimestamp.msg
+[1.094s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/msg/EncoderTicks.msg
+[1.094s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/version_info.yaml
+[1.095s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/ament_index/resource_index/package_run_dependencies/isaac_ros_nova_interfaces
+[1.095s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/ament_index/resource_index/parent_prefix_path/isaac_ros_nova_interfaces
+[1.095s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/environment/ament_prefix_path.sh
+[1.095s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/environment/ament_prefix_path.dsv
+[1.095s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/environment/path.sh
+[1.095s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/environment/path.dsv
+[1.095s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/local_setup.bash
+[1.095s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/local_setup.sh
+[1.096s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/local_setup.zsh
+[1.096s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/local_setup.dsv
+[1.096s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/package.dsv
+[1.101s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/ament_index/resource_index/packages/isaac_ros_nova_interfaces
+[1.102s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.102s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.102s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.102s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.102s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.102s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.102s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.103s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/isaac_ros_nova_interfacesConfig.cmake
+[1.103s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/isaac_ros_nova_interfacesConfig-version.cmake
+[1.103s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/package.xml
+[1.103s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/lib/libisaac_ros_nova_interfaces__rosidl_generator_c.so
+[1.104s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/lib/libisaac_ros_nova_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.104s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/lib/libisaac_ros_nova_interfaces__rosidl_typesupport_introspection_c.so
+[1.104s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/lib/libisaac_ros_nova_interfaces__rosidl_typesupport_c.so
+[1.104s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/lib/libisaac_ros_nova_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.104s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/lib/libisaac_ros_nova_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.104s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/lib/libisaac_ros_nova_interfaces__rosidl_typesupport_cpp.so
+[1.113s] Listing '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces'...
+[1.113s] Listing '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nova_interfaces/msg'...
+[1.113s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/lib/libisaac_ros_nova_interfaces__rosidl_generator_py.so
+[1.113s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/export_isaac_ros_nova_interfaces__rosidl_generator_cExport.cmake
+[1.113s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/export_isaac_ros_nova_interfaces__rosidl_generator_cExport-release.cmake
+[1.113s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/export_isaac_ros_nova_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.114s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/export_isaac_ros_nova_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.114s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/isaac_ros_nova_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.114s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/isaac_ros_nova_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[1.114s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/isaac_ros_nova_interfaces__rosidl_typesupport_cExport.cmake
+[1.114s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/isaac_ros_nova_interfaces__rosidl_typesupport_cExport-release.cmake
+[1.114s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/export_isaac_ros_nova_interfaces__rosidl_generator_cppExport.cmake
+[1.114s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/export_isaac_ros_nova_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.115s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/export_isaac_ros_nova_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.115s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/isaac_ros_nova_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.115s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/isaac_ros_nova_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.115s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/isaac_ros_nova_interfaces__rosidl_typesupport_cppExport.cmake
+[1.115s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/isaac_ros_nova_interfaces__rosidl_typesupport_cppExport-release.cmake
+[1.115s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/export_isaac_ros_nova_interfaces__rosidl_generator_pyExport.cmake
+[1.115s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nova_interfaces/share/isaac_ros_nova_interfaces/cmake/export_isaac_ros_nova_interfaces__rosidl_generator_pyExport-release.cmake
+[1.200s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_nova_interfaces' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_nova_interfaces

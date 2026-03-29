@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_bi3d_interfaces/rosidl_generator_py/isaac_ros_bi3d_interfaces/_isaac_ros_bi3d_interfaces_s.ep.rosidl_typesupport_introspection_c.c

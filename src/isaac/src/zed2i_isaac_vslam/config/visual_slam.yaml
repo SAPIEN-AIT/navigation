@@ -1,0 +1,20 @@
+/**:
+  ros__parameters:
+    rectified_images: true
+    num_cameras: 2
+    enable_image_denoising: true
+    enable_imu_fusion: true
+    gyro_noise_density: 0.0001
+    gyro_random_walk: 0.000005
+    accel_noise_density: 0.0005
+    accel_random_walk: 0.0005
+    calibration_frequency: 200.0
+    image_jitter_threshold_ms: 150.0
+    map_frame: map
+    odom_frame: odom
+    publish_map_to_odom_tf: true
+    publish_odom_to_base_tf: true
+    enable_slam_visualization: true
+    enable_landmarks_view: true
+    enable_observations_view: true
+    path_max_size: 1024

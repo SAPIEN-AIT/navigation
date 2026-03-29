@@ -1,0 +1,1 @@
+Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/zed_components

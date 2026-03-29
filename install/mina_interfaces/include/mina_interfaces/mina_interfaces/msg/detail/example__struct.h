@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces/rosidl_generator_c/mina_interfaces/msg/detail/example__struct.h

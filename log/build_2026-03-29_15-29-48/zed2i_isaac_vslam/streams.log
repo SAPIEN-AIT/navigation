@@ -1,0 +1,54 @@
+[0.010s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper:/home/edgard/Desktop/AITEAM/nav/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper:/home/edgard/Desktop/AITEAM/nav/install/zed_components:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed2i_isaac_vslam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam
+[0.064s] -- The C compiler identification is GNU 11.4.0
+[0.119s] -- The CXX compiler identification is GNU 11.4.0
+[0.127s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.205s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.293s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.293s] -- Detecting CXX compile features
+[0.293s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.438s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.496s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.602s] -- Configuring done
+[0.602s] -- Generating done
+[0.603s] -- Build files have been written to: /home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam
+[0.611s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper:/home/edgard/Desktop/AITEAM/nav/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper:/home/edgard/Desktop/AITEAM/nav/install/zed_components:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed2i_isaac_vslam -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam
+[0.611s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper:/home/edgard/Desktop/AITEAM/nav/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper:/home/edgard/Desktop/AITEAM/nav/install/zed_components:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam -- -j24 -l24
+[0.651s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper:/home/edgard/Desktop/AITEAM/nav/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper:/home/edgard/Desktop/AITEAM/nav/install/zed_components:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam -- -j24 -l24
+[0.651s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper:/home/edgard/Desktop/AITEAM/nav/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper:/home/edgard/Desktop/AITEAM/nav/install/zed_components:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam
+[0.658s] -- Install configuration: ""
+[0.658s] -- Execute custom install script
+[0.659s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/config/SN38462249.conf
+[0.666s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/config/slam_toolbox_params.yaml
+[0.673s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/config/visual_slam.yaml
+[0.682s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/config/zed2i_camera.yaml
+[0.690s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/config/zed2i_pointcloud.yaml
+[0.697s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/launch/__pycache__/zed2i_isaac_vslam.launch.cpython-310.pyc
+[0.705s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/launch/__pycache__/zed2i_mapping.launch.cpython-310.pyc
+[0.713s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/launch/zed2i_isaac_vslam.launch.py
+[0.720s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/launch/zed2i_mapping.launch.py
+[0.728s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/rviz/zed2i_isaac_vslam.rviz
+[0.736s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/rviz/zed2i_mapping.rviz
+[0.743s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/rviz/zed2i_pointcloud.rviz
+[0.751s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/lib/zed2i_isaac_vslam/vio_watcher
+[0.759s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/ament_index/resource_index/package_run_dependencies/zed2i_isaac_vslam
+[0.767s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/ament_index/resource_index/parent_prefix_path/zed2i_isaac_vslam
+[0.775s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/environment/ament_prefix_path.sh
+[0.782s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/environment/ament_prefix_path.dsv
+[0.790s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/environment/path.sh
+[0.797s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/environment/path.dsv
+[0.805s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/local_setup.bash
+[0.812s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/local_setup.sh
+[0.820s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/local_setup.zsh
+[0.827s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/local_setup.dsv
+[0.835s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/package.dsv
+[0.843s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/ament_index/resource_index/packages/zed2i_isaac_vslam
+[0.850s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/cmake/zed2i_isaac_vslamConfig.cmake
+[0.858s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/cmake/zed2i_isaac_vslamConfig-version.cmake
+[0.866s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed2i_isaac_vslam/share/zed2i_isaac_vslam/package.xml
+[0.876s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper:/home/edgard/Desktop/AITEAM/nav/install/zed_components:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_wrapper:/home/edgard/Desktop/AITEAM/nav/install/zed_components:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/zed2i_isaac_vslam

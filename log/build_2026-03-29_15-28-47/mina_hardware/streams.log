@@ -1,0 +1,18 @@
+[1.573s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_hardware': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/mina_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/mina_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/mina_hardware/build --no-deps symlink_data
+[1.850s] running develop
+[2.002s] running egg_info
+[2.002s] writing mina_hardware.egg-info/PKG-INFO
+[2.003s] writing dependency_links to mina_hardware.egg-info/dependency_links.txt
+[2.003s] writing entry points to mina_hardware.egg-info/entry_points.txt
+[2.003s] writing requirements to mina_hardware.egg-info/requires.txt
+[2.003s] writing top-level names to mina_hardware.egg-info/top_level.txt
+[2.004s] reading manifest file 'mina_hardware.egg-info/SOURCES.txt'
+[2.004s] writing manifest file 'mina_hardware.egg-info/SOURCES.txt'
+[2.048s] running build_ext
+[2.048s] Creating /home/edgard/Desktop/AITEAM/nav/install/mina_hardware/lib/python3.10/site-packages/mina-hardware.egg-link (link to .)
+[2.049s] Installing can_driver script to /home/edgard/Desktop/AITEAM/nav/install/mina_hardware/lib/mina_hardware
+[2.049s] Installing imu_driver script to /home/edgard/Desktop/AITEAM/nav/install/mina_hardware/lib/mina_hardware
+[2.049s] 
+[2.049s] Installed /home/edgard/Desktop/AITEAM/nav/build/mina_hardware
+[2.049s] running symlink_data
+[2.128s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/mina_hardware' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/mina_hardware/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/mina_hardware/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/mina_hardware/build --no-deps symlink_data

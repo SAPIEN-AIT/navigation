@@ -1,0 +1,27 @@
+[0.018s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/zed_components -- -j24 -l24
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target zed_camera_component[0m
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target zed_camera_one_component[0m
+[0.231s] [ 50%] Built target zed_camera_component
+[0.232s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/zed_camera/src/zed_camera_one_component.cpp.o[0m
+[3.889s] [01m[K/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_one_component.cpp:[m[K In member function ‘[01m[Kbool stereolabs::ZedCameraOne::startCamera()[m[K’:
+[3.889s] [01m[K/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_one_component.cpp:686:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksl::InputType::setFromSerialNumber(int&, sl::BUS_TYPE)[m[K’
+[3.889s]   686 |       [01;31m[K_initParams.input.setFromSerialNumber(_camSerialNumber, sl::BUS_TYPE::GMSL)[m[K;
+[3.889s]       |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.889s] In file included from [01m[K/usr/local/zed/include/sl/CameraOne.hpp:76[m[K,
+[3.889s]                  from [01m[K/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_one_component.hpp:23[m[K,
+[3.889s]                  from [01m[K/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_one_component.cpp:15[m[K:
+[3.889s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1085:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid sl::InputType::setFromSerialNumber(unsigned int)[m[K’
+[3.889s]  1085 |         void [01;36m[KsetFromSerialNumber[m[K(unsigned int camera_serial_number);
+[3.889s]       |              [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.889s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1085:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[3.889s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1095:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid sl::InputType::setFromSerialNumber(sl::String)[m[K’
+[3.889s]  1095 |         void [01;36m[KsetFromSerialNumber[m[K(sl::String serial_number);
+[3.889s]       |              [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.889s] [01m[K/usr/local/zed/include/sl/Camera.hpp:1095:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[3.889s] [01m[K/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_one_component.cpp:688:73:[m[K [01;31m[Kerror: [m[K‘[01m[Ksl::CAMERA_TYPE[m[K’ has not been declared
+[3.890s]   688 |       _initParams.input.setFromCameraID(_camId, sl::BUS_TYPE::GMSL, sl::[01;31m[KCAMERA_TYPE[m[K::MONO);
+[3.890s]       |                                                                         [01;31m[K^~~~~~~~~~~[m[K
+[6.378s] gmake[2]: *** [CMakeFiles/zed_camera_one_component.dir/build.make:118: CMakeFiles/zed_camera_one_component.dir/src/zed_camera/src/zed_camera_one_component.cpp.o] Error 1
+[6.378s] gmake[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/zed_camera_one_component.dir/all] Error 2
+[6.378s] gmake: *** [Makefile:146: all] Error 2
+[6.381s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/zed_components' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/zed_components -- -j24 -l24

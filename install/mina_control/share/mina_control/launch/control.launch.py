@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_control/launch/control.launch.py

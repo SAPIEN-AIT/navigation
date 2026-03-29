@@ -1,0 +1,15 @@
+[0.311s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_common': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_common -- -j24 -l24
+[1.100s] [ 33%] [34m[1mGenerating version information as YAML[0m
+[1.101s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.101s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.101s] [ 33%] Built target generate_version_info_target_isaac_common
+[1.607s] [ 44%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.012s] [ 44%] Built target gtest_main
+[8.534s] [ 55%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.602s] [ 55%] Built target gtest
+[8.622s] [ 77%] [32mBuilding CXX object CMakeFiles/isaac_common_test_message_buffer.dir/test/test_message_buffer.cpp.o[0m
+[8.622s] [ 77%] [32mBuilding CXX object CMakeFiles/isaac_common_test_message_stream_synchronizer.dir/test/test_message_stream_synchronizer.cpp.o[0m
+[9.737s] [ 88%] [32m[1mLinking CXX executable isaac_common_test_message_stream_synchronizer[0m
+[9.821s] [ 88%] Built target isaac_common_test_message_stream_synchronizer
+[9.914s] [100%] [32m[1mLinking CXX executable isaac_common_test_message_buffer[0m
+[9.999s] [100%] Built target isaac_common_test_message_buffer

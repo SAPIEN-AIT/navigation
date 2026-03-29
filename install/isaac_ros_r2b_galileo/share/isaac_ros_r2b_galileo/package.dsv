@@ -1,0 +1,8 @@
+source;share/isaac_ros_r2b_galileo/hook/cmake_prefix_path.ps1
+source;share/isaac_ros_r2b_galileo/hook/cmake_prefix_path.dsv
+source;share/isaac_ros_r2b_galileo/hook/cmake_prefix_path.sh
+source;share/isaac_ros_r2b_galileo/local_setup.bash
+source;share/isaac_ros_r2b_galileo/local_setup.dsv
+source;share/isaac_ros_r2b_galileo/local_setup.ps1
+source;share/isaac_ros_r2b_galileo/local_setup.sh
+source;share/isaac_ros_r2b_galileo/local_setup.zsh

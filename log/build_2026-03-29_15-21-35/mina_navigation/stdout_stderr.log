@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/config/nav2_param.yaml
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/launch/navigation.launch.py
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/param/nav2_params.yaml
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/ament_index/resource_index/package_run_dependencies/mina_navigation
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/ament_index/resource_index/parent_prefix_path/mina_navigation
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/environment/ament_prefix_path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/environment/path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/environment/path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/local_setup.bash
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/local_setup.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/local_setup.zsh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/local_setup.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/package.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/ament_index/resource_index/packages/mina_navigation
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/cmake/mina_navigationConfig.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/cmake/mina_navigationConfig-version.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_navigation/share/mina_navigation/package.xml

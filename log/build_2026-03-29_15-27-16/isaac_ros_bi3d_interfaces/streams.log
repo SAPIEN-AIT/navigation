@@ -1,0 +1,151 @@
+[0.495s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_bi3d_interfaces': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_bi3d_interfaces -- -j24 -l24
+[0.739s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_bi3d_interfaces__rosidl_generator_c[0m
+[0.739s] [  3%] Built target isaac_ros_bi3d_interfaces__cpp
+[0.739s] [  6%] Built target isaac_ros_bi3d_interfaces__rs
+[0.739s] [  9%] Built target generate_version_info_target_isaac_ros_bi3d_interfaces
+[0.739s] [ 18%] Built target isaac_ros_bi3d_interfaces__rosidl_generator_c
+[0.740s] [ 18%] Built target ament_cmake_python_symlink_isaac_ros_bi3d_interfaces
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_bi3d_interfaces__rosidl_typesupport_c[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_bi3d_interfaces__rosidl_typesupport_cpp[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_c[0m
+[0.740s] [ 27%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_c
+[0.740s] [ 36%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_c
+[0.740s] [ 45%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.740s] [ 54%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_cpp
+[0.740s] [ 63%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_cpp
+[0.740s] [ 72%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_c
+[0.740s] [ 72%] Built target isaac_ros_bi3d_interfaces
+[0.740s] [ 75%] Built target isaac_ros_bi3d_interfaces__py
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_bi3d_interfaces__rosidl_generator_py[0m
+[0.740s] [ 81%] Built target isaac_ros_bi3d_interfaces__rosidl_generator_py
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_bi3d_interfaces__rosidl_typesupport_c__pyext[0m
+[0.740s] [ 87%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.740s] [100%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_c__pyext
+[0.740s] [100%] Built target isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.744s] running egg_info
+[0.744s] writing isaac_ros_bi3d_interfaces.egg-info/PKG-INFO
+[0.744s] writing dependency_links to isaac_ros_bi3d_interfaces.egg-info/dependency_links.txt
+[0.744s] writing top-level names to isaac_ros_bi3d_interfaces.egg-info/top_level.txt
+[0.748s] reading manifest file 'isaac_ros_bi3d_interfaces.egg-info/SOURCES.txt'
+[0.748s] writing manifest file 'isaac_ros_bi3d_interfaces.egg-info/SOURCES.txt'
+[0.771s] [100%] Built target ament_cmake_python_build_isaac_ros_bi3d_interfaces_egg
+[1.044s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_bi3d_interfaces' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_bi3d_interfaces -- -j24 -l24
+[1.047s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_bi3d_interfaces': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_bi3d_interfaces
+[1.063s] -- Install configuration: "Release"
+[1.063s] -- Execute custom install script
+[1.063s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/ament_index/resource_index/rosidl_interfaces/isaac_ros_bi3d_interfaces
+[1.070s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/bi3_d_inference_parameters_array.h
+[1.079s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/detail/bi3_d_inference_parameters_array__functions.h
+[1.100s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/detail/bi3_d_inference_parameters_array__struct.h
+[1.123s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/detail/bi3_d_inference_parameters_array__type_support.h
+[1.141s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.161s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/environment/library_path.sh
+[1.194s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/environment/library_path.dsv
+[1.219s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/detail/bi3_d_inference_parameters_array__rosidl_typesupport_fastrtps_c.h
+[1.234s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.246s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/detail/bi3_d_inference_parameters_array__rosidl_typesupport_introspection_c.h
+[1.262s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.279s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/bi3_d_inference_parameters_array.hpp
+[1.290s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/detail/bi3_d_inference_parameters_array__builder.hpp
+[1.306s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/detail/bi3_d_inference_parameters_array__struct.hpp
+[1.320s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/detail/bi3_d_inference_parameters_array__traits.hpp
+[1.334s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/detail/bi3_d_inference_parameters_array__type_support.hpp
+[1.343s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.358s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/detail/bi3_d_inference_parameters_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.368s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.384s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/include/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces/msg/detail/bi3_d_inference_parameters_array__rosidl_typesupport_introspection_cpp.hpp
+[1.394s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/environment/pythonpath.sh
+[1.412s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/environment/pythonpath.dsv
+[1.429s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces-3.2.5-py3.10.egg-info/PKG-INFO
+[1.442s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces-3.2.5-py3.10.egg-info/SOURCES.txt
+[1.449s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces-3.2.5-py3.10.egg-info/dependency_links.txt
+[1.458s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces-3.2.5-py3.10.egg-info/top_level.txt
+[1.466s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/__init__.py
+[1.481s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/_isaac_ros_bi3d_interfaces_s.ep.rosidl_typesupport_c.c
+[1.488s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/_isaac_ros_bi3d_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.506s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/_isaac_ros_bi3d_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.537s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.564s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.583s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.596s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/libisaac_ros_bi3d_interfaces__rosidl_generator_py.so
+[1.609s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/msg/__init__.py
+[1.624s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/msg/_bi3_d_inference_parameters_array.py
+[1.638s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/msg/_bi3_d_inference_parameters_array_s.c
+[1.647s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.655s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.655s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/isaac_ros_bi3d_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.655s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/ament_index/resource_index/rust_packages/isaac_ros_bi3d_interfaces
+[1.662s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/rust/Cargo.toml
+[1.674s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/rust/build.rs
+[1.682s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/rust/src/lib.rs
+[1.696s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/rust/src/msg.rs
+[1.705s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/rust/src/msg/rmw.rs
+[1.722s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/msg/Bi3DInferenceParametersArray.idl
+[1.733s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/msg/Bi3DInferenceParametersArray.msg
+[1.743s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/version_info.yaml
+[1.755s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/ament_index/resource_index/package_run_dependencies/isaac_ros_bi3d_interfaces
+[1.769s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/ament_index/resource_index/parent_prefix_path/isaac_ros_bi3d_interfaces
+[1.777s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/environment/ament_prefix_path.sh
+[1.789s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/environment/ament_prefix_path.dsv
+[1.803s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/environment/path.sh
+[1.816s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/environment/path.dsv
+[1.829s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/local_setup.bash
+[1.843s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/local_setup.sh
+[1.857s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/local_setup.zsh
+[1.877s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/local_setup.dsv
+[1.894s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/package.dsv
+[1.910s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/ament_index/resource_index/packages/isaac_ros_bi3d_interfaces
+[1.927s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.955s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.983s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.013s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.031s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.048s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.063s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.078s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/isaac_ros_bi3d_interfacesConfig.cmake
+[2.094s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/isaac_ros_bi3d_interfacesConfig-version.cmake
+[2.113s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/package.xml
+[2.128s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_generator_c.so
+[2.128s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_generator_c.so" to ""
+[2.129s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.129s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.129s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_c.so
+[2.132s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.132s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_typesupport_c.so
+[2.132s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_typesupport_c.so" to ""
+[2.132s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.133s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.133s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.133s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.133s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_typesupport_cpp.so
+[2.136s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.197s] Listing '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces'...
+[2.197s] Compiling '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/__init__.py'...
+[2.197s] Listing '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/msg'...
+[2.197s] Compiling '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/msg/__init__.py'...
+[2.197s] Compiling '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/local/lib/python3.10/dist-packages/isaac_ros_bi3d_interfaces/msg/_bi3_d_inference_parameters_array.py'...
+[2.207s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_generator_py.so
+[2.207s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/lib/libisaac_ros_bi3d_interfaces__rosidl_generator_py.so" to ""
+[2.208s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/export_isaac_ros_bi3d_interfaces__rosidl_generator_cExport.cmake
+[2.208s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/export_isaac_ros_bi3d_interfaces__rosidl_generator_cExport-release.cmake
+[2.209s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/export_isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.210s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/export_isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[2.210s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.210s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[2.210s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/isaac_ros_bi3d_interfaces__rosidl_typesupport_cExport.cmake
+[2.211s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/isaac_ros_bi3d_interfaces__rosidl_typesupport_cExport-release.cmake
+[2.211s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/export_isaac_ros_bi3d_interfaces__rosidl_generator_cppExport.cmake
+[2.212s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/export_isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.212s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/export_isaac_ros_bi3d_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[2.212s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.212s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/isaac_ros_bi3d_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[2.212s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/isaac_ros_bi3d_interfaces__rosidl_typesupport_cppExport.cmake
+[2.212s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/isaac_ros_bi3d_interfaces__rosidl_typesupport_cppExport-release.cmake
+[2.213s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/export_isaac_ros_bi3d_interfaces__rosidl_generator_pyExport.cmake
+[2.213s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_bi3d_interfaces/share/isaac_ros_bi3d_interfaces/cmake/export_isaac_ros_bi3d_interfaces__rosidl_generator_pyExport-release.cmake
+[2.256s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_bi3d_interfaces' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_bi3d_interfaces

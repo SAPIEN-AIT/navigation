@@ -1,0 +1,39 @@
+[0.326s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_r2b_galileo': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_ros_r2b_galileo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo
+[0.762s] -- The C compiler identification is GNU 11.4.0
+[0.762s] -- The CXX compiler identification is GNU 11.4.0
+[0.762s] -- Detecting C compiler ABI info
+[0.762s] -- Detecting C compiler ABI info - done
+[0.762s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.762s] -- Detecting C compile features
+[0.762s] -- Detecting C compile features - done
+[0.762s] -- Detecting CXX compiler ABI info
+[0.762s] -- Detecting CXX compiler ABI info - done
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.762s] -- Detecting CXX compile features
+[0.762s] -- Detecting CXX compile features - done
+[0.762s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.762s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.799s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.907s] -- Loading isaac_ros_common extras
+[0.907s] -- CMAKE_BUILD_TYPE: Release
+[0.924s] -- Looking for pthread.h
+[0.992s] -- Looking for pthread.h - found
+[0.993s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.088s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.089s] -- Found Threads: TRUE  
+[1.119s] -- Found CUDA: /usr/local/cuda (found version "13.0") 
+[1.120s] -- CUDA architectures: 89;86;80;75;70
+[1.120s] -- Loading isaac_ros_common extras (modules)
+[1.159s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.163s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.171s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.184s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.214s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.268s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.270s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.362s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.402s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.454s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[27.939s] -- Configuring done
+[27.942s] -- Generating done
+[27.945s] -- Build files have been written to: /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_r2b_galileo

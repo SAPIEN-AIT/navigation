@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_nova_interfaces/rosidl_generator_py/isaac_ros_nova_interfaces/__init__.py

@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_navigation/ament_cmake_core/mina_navigationConfig.cmake

@@ -1,0 +1,52 @@
+[0.323s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_common': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/isaac_common
+[0.753s] -- The C compiler identification is GNU 11.4.0
+[0.755s] -- The CXX compiler identification is GNU 11.4.0
+[0.756s] -- Detecting C compiler ABI info
+[0.756s] -- Detecting C compiler ABI info - done
+[0.756s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.756s] -- Detecting C compile features
+[0.756s] -- Detecting C compile features - done
+[0.756s] -- Detecting CXX compiler ABI info
+[0.756s] -- Detecting CXX compiler ABI info - done
+[0.756s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.756s] -- Detecting CXX compile features
+[0.756s] -- Detecting CXX compile features - done
+[0.756s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.756s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.790s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.882s] -- Loading isaac_ros_common extras
+[0.882s] -- CMAKE_BUILD_TYPE: Release
+[0.900s] -- Looking for pthread.h
+[0.967s] -- Looking for pthread.h - found
+[0.967s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.056s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.057s] -- Found Threads: TRUE  
+[1.083s] -- Found CUDA: /usr/local/cuda (found version "13.0") 
+[1.084s] -- CUDA architectures: 89;86;80;75;70
+[1.084s] -- Loading isaac_ros_common extras (modules)
+[1.134s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.138s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.147s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.247s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.249s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.331s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.358s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.404s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.471s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.494s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.578s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/isaac_common` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[1.582s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.583s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.584s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/edgard/Desktop/AITEAM/nav/src/isaac/src/isaac_ros_common/isaac_common/include>
+[1.584s] -- Configured cppcheck exclude dirs and/or files: 
+[1.585s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.585s] -- Configured cpplint exclude dirs and/or files: 
+[1.586s] -- Added test 'lint_cmake' to check CMake code style
+[1.587s] -- Added test 'uncrustify' to check C / C++ code style
+[1.587s] -- Configured uncrustify additional arguments: 
+[1.587s] -- Added test 'xmllint' to check XML markup files
+[1.590s] -- Configuring done
+[1.601s] -- Generating done
+[1.606s] -- Build files have been written to: /home/edgard/Desktop/AITEAM/nav/build/isaac_common

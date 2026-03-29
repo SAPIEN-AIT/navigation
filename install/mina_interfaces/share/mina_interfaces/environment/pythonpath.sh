@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces/ament_cmake_environment_hooks/pythonpath.sh

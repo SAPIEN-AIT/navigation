@@ -1,0 +1,1 @@
+docker exec -it isaac_slam bash

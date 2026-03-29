@@ -1,0 +1,78 @@
+[0.016s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/edgard/Desktop/AITEAM/nav/install/zed_components
+[0.239s] -- The C compiler identification is GNU 11.4.0
+[0.239s] -- The CXX compiler identification is GNU 11.4.0
+[0.239s] -- Detecting C compiler ABI info
+[0.240s] -- Detecting C compiler ABI info - done
+[0.240s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.240s] -- Detecting C compile features
+[0.240s] -- Detecting C compile features - done
+[0.240s] -- Detecting CXX compiler ABI info
+[0.284s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.292s] -- Detecting CXX compile features - done
+[0.300s] -- Looking for sgemm_
+[0.375s] -- Looking for sgemm_ - not found
+[0.375s] -- Looking for pthread.h
+[0.448s] -- Looking for pthread.h - found
+[0.448s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.517s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.518s] -- Found Threads: TRUE  
+[0.539s] -- Looking for sgemm_
+[0.641s] -- Looking for sgemm_ - found
+[0.642s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libopenblas.so  
+[0.664s] -- Found CUDA: /usr/local/cuda (found suitable version "13.0", minimum required is "13") 
+[0.706s] -- Found CUDA: /usr/local/cuda (found version "13.0") 
+[0.707s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.850s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.903s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.030s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.033s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.043s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.061s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.079s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.115s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.116s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.198s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.223s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.269s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.506s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.507s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.507s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.605s] [33mCMake Warning at CMakeLists.txt:122 (find_package):
+[1.605s]   By not providing "Findzed_msgs.cmake" in CMAKE_MODULE_PATH this project has
+[1.605s]   asked CMake to find a package configuration file provided by "zed_msgs",
+[1.605s]   but CMake did not find one.
+[1.605s] 
+[1.605s]   Could not find a package configuration file provided by "zed_msgs" with any
+[1.605s]   of the following names:
+[1.605s] 
+[1.606s]     zed_msgsConfig.cmake
+[1.606s]     zed_msgs-config.cmake
+[1.606s] 
+[1.606s]   Add the installation prefix of "zed_msgs" to CMAKE_PREFIX_PATH or set
+[1.606s]   "zed_msgs_DIR" to a directory containing one of the above files.  If
+[1.606s]   "zed_msgs" provides a separate development package or SDK, be sure it has
+[1.606s]   been installed.
+[1.606s] 
+[1.606s] [0m
+[1.614s] [31mCMake Error at CMakeLists.txt:132 (find_package):
+[1.614s]   By not providing "Findnmea_msgs.cmake" in CMAKE_MODULE_PATH this project
+[1.614s]   has asked CMake to find a package configuration file provided by
+[1.614s]   "nmea_msgs", but CMake did not find one.
+[1.615s] 
+[1.615s]   Could not find a package configuration file provided by "nmea_msgs" with
+[1.615s]   any of the following names:
+[1.615s] 
+[1.615s]     nmea_msgsConfig.cmake
+[1.615s]     nmea_msgs-config.cmake
+[1.615s] 
+[1.615s]   Add the installation prefix of "nmea_msgs" to CMAKE_PREFIX_PATH or set
+[1.615s]   "nmea_msgs_DIR" to a directory containing one of the above files.  If
+[1.615s]   "nmea_msgs" provides a separate development package or SDK, be sure it has
+[1.615s]   been installed.
+[1.615s] 
+[1.615s] [0m
+[1.615s] -- Configuring incomplete, errors occurred!
+[1.615s] See also "/home/edgard/Desktop/AITEAM/nav/build/zed_components/CMakeFiles/CMakeOutput.log".
+[1.615s] See also "/home/edgard/Desktop/AITEAM/nav/build/zed_components/CMakeFiles/CMakeError.log".

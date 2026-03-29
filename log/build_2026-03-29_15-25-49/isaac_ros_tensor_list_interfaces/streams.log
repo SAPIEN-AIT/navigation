@@ -1,0 +1,76 @@
+[0.314s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_tensor_list_interfaces': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_tensor_list_interfaces -- -j24 -l24
+[1.063s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.064s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.071s] [  6%] [34m[1mGenerating version information as YAML[0m
+[1.072s] [  8%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[1.072s] [  8%] Built target ament_cmake_python_symlink_isaac_ros_tensor_list_interfaces
+[1.072s] [  8%] Built target generate_version_info_target_isaac_ros_tensor_list_interfaces
+[1.072s] running egg_info
+[1.072s] creating isaac_ros_tensor_list_interfaces.egg-info
+[1.072s] writing isaac_ros_tensor_list_interfaces.egg-info/PKG-INFO
+[1.072s] writing dependency_links to isaac_ros_tensor_list_interfaces.egg-info/dependency_links.txt
+[1.073s] writing top-level names to isaac_ros_tensor_list_interfaces.egg-info/top_level.txt
+[1.073s] writing manifest file 'isaac_ros_tensor_list_interfaces.egg-info/SOURCES.txt'
+[1.073s] reading manifest file 'isaac_ros_tensor_list_interfaces.egg-info/SOURCES.txt'
+[1.073s] writing manifest file 'isaac_ros_tensor_list_interfaces.egg-info/SOURCES.txt'
+[1.073s] [  8%] Built target ament_cmake_python_build_isaac_ros_tensor_list_interfaces_egg
+[1.074s] [  8%] Built target isaac_ros_tensor_list_interfaces__rs
+[1.074s] [  8%] Built target isaac_ros_tensor_list_interfaces__cpp
+[1.090s] [ 10%] [32mBuilding C object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_generator_c.dir/rosidl_generator_c/isaac_ros_tensor_list_interfaces/msg/detail/tensor_shape__functions.c.o[0m
+[1.102s] [ 12%] [32mBuilding C object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_generator_c.dir/rosidl_generator_c/isaac_ros_tensor_list_interfaces/msg/detail/tensor__functions.c.o[0m
+[1.103s] [ 14%] [32mBuilding C object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_generator_c.dir/rosidl_generator_c/isaac_ros_tensor_list_interfaces/msg/detail/tensor_list__functions.c.o[0m
+[1.103s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.104s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.104s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.224s] [ 22%] [32m[1mLinking C shared library libisaac_ros_tensor_list_interfaces__rosidl_generator_c.so[0m
+[1.368s] [ 22%] Built target isaac_ros_tensor_list_interfaces__rosidl_generator_c
+[1.392s] [ 24%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.392s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.400s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.587s] [ 30%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/isaac_ros_tensor_list_interfaces/msg/detail/tensor_shape__type_support.cpp.o[0m
+[1.601s] [ 32%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/isaac_ros_tensor_list_interfaces/msg/detail/tensor__type_support.cpp.o[0m
+[1.602s] [ 34%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/isaac_ros_tensor_list_interfaces/msg/detail/tensor_list__type_support.cpp.o[0m
+[2.063s] [ 36%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/isaac_ros_tensor_list_interfaces/msg/detail/dds_fastrtps/tensor_shape__type_support.cpp.o[0m
+[2.085s] [ 38%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/isaac_ros_tensor_list_interfaces/msg/detail/dds_fastrtps/tensor_list__type_support.cpp.o[0m
+[2.092s] [ 40%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/isaac_ros_tensor_list_interfaces/msg/detail/dds_fastrtps/tensor__type_support.cpp.o[0m
+[2.195s] [ 42%] [32mBuilding C object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/isaac_ros_tensor_list_interfaces/msg/detail/tensor__type_support.c.o[0m
+[2.198s] [ 44%] [32mBuilding C object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/isaac_ros_tensor_list_interfaces/msg/detail/tensor_list__type_support.c.o[0m
+[2.201s] [ 46%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/isaac_ros_tensor_list_interfaces/msg/tensor__type_support.cpp.o[0m
+[2.210s] [ 48%] [32mBuilding C object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/isaac_ros_tensor_list_interfaces/msg/detail/tensor_shape__type_support.c.o[0m
+[2.212s] [ 53%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/isaac_ros_tensor_list_interfaces/msg/tensor_list__type_support.cpp.o[0m
+[2.213s] [ 53%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/isaac_ros_tensor_list_interfaces/msg/tensor_shape__type_support.cpp.o[0m
+[2.382s] [ 55%] [32m[1mLinking C shared library libisaac_ros_tensor_list_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.509s] [ 55%] Built target isaac_ros_tensor_list_interfaces__rosidl_typesupport_introspection_c
+[2.642s] [ 57%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/isaac_ros_tensor_list_interfaces/msg/tensor_shape__type_support.cpp.o[0m
+[2.642s] [ 59%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/isaac_ros_tensor_list_interfaces/msg/tensor_list__type_support.cpp.o[0m
+[2.642s] [ 61%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/isaac_ros_tensor_list_interfaces/msg/tensor__type_support.cpp.o[0m
+[2.781s] [ 63%] [32m[1mLinking CXX shared library libisaac_ros_tensor_list_interfaces__rosidl_typesupport_c.so[0m
+[3.063s] [ 63%] Built target isaac_ros_tensor_list_interfaces__rosidl_typesupport_c
+[3.195s] [ 65%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/isaac_ros_tensor_list_interfaces/msg/detail/tensor_shape__type_support_c.cpp.o[0m
+[3.203s] [ 67%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/isaac_ros_tensor_list_interfaces/msg/detail/tensor__type_support_c.cpp.o[0m
+[3.205s] [ 69%] [32mBuilding CXX object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/isaac_ros_tensor_list_interfaces/msg/detail/tensor_list__type_support_c.cpp.o[0m
+[3.348s] [ 71%] [32m[1mLinking CXX shared library libisaac_ros_tensor_list_interfaces__rosidl_typesupport_cpp.so[0m
+[3.464s] [ 71%] Built target isaac_ros_tensor_list_interfaces__rosidl_typesupport_cpp
+[3.572s] [ 73%] [32m[1mLinking CXX shared library libisaac_ros_tensor_list_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.723s] [ 73%] Built target isaac_ros_tensor_list_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.821s] [ 75%] [32m[1mLinking CXX shared library libisaac_ros_tensor_list_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.910s] [ 75%] Built target isaac_ros_tensor_list_interfaces__rosidl_typesupport_introspection_cpp
+[3.951s] [ 77%] [32m[1mLinking CXX shared library libisaac_ros_tensor_list_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.025s] [ 77%] Built target isaac_ros_tensor_list_interfaces__rosidl_typesupport_fastrtps_c
+[4.041s] [ 77%] Built target isaac_ros_tensor_list_interfaces
+[4.058s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.526s] [ 79%] Built target isaac_ros_tensor_list_interfaces__py
+[4.543s] [ 81%] [32mBuilding C object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_generator_py.dir/rosidl_generator_py/isaac_ros_tensor_list_interfaces/msg/_tensor_shape_s.c.o[0m
+[4.545s] [ 83%] [32mBuilding C object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_generator_py.dir/rosidl_generator_py/isaac_ros_tensor_list_interfaces/msg/_tensor_list_s.c.o[0m
+[4.545s] [ 85%] [32mBuilding C object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_generator_py.dir/rosidl_generator_py/isaac_ros_tensor_list_interfaces/msg/_tensor_s.c.o[0m
+[4.688s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_tensor_list_interfaces/libisaac_ros_tensor_list_interfaces__rosidl_generator_py.so[0m
+[4.728s] [ 87%] Built target isaac_ros_tensor_list_interfaces__rosidl_generator_py
+[4.746s] [ 89%] [32mBuilding C object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/isaac_ros_tensor_list_interfaces/_isaac_ros_tensor_list_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.751s] [ 91%] [32mBuilding C object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/isaac_ros_tensor_list_interfaces/_isaac_ros_tensor_list_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.753s] [ 93%] [32mBuilding C object CMakeFiles/isaac_ros_tensor_list_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/isaac_ros_tensor_list_interfaces/_isaac_ros_tensor_list_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.859s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_tensor_list_interfaces/isaac_ros_tensor_list_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.867s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_tensor_list_interfaces/isaac_ros_tensor_list_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.869s] [100%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_tensor_list_interfaces/isaac_ros_tensor_list_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.900s] [100%] Built target isaac_ros_tensor_list_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.905s] [100%] Built target isaac_ros_tensor_list_interfaces__rosidl_typesupport_c__pyext
+[4.906s] [100%] Built target isaac_ros_tensor_list_interfaces__rosidl_typesupport_introspection_c__pyext

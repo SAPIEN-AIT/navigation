@@ -1,0 +1,53 @@
+[0.018s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/mina_description -- -j24 -l24
+[0.447s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/mina_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/mina_description -- -j24 -l24
+[0.457s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_description': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/mina_description
+[0.466s] -- Install configuration: ""
+[0.469s] -- Execute custom install script
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//urdf/berkeley_humanoid_lite.urdf
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//urdf/berkeley_humanoid_lite_biped.urdf
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/arm_left_elbow_pitch_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/arm_left_elbow_roll_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/arm_left_hand_link_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/arm_left_shoulder_pitch_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/arm_left_shoulder_roll_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/arm_left_shoulder_yaw_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/arm_right_elbow_pitch_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/arm_right_elbow_roll_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/arm_right_hand_link_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/arm_right_shoulder_pitch_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/arm_right_shoulder_roll_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/arm_right_shoulder_yaw_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/base_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/imu_2_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/leg_left_ankle_pitch_visual.stl
+[0.469s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/leg_left_ankle_roll_visual.stl
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/leg_left_hip_pitch_visual.stl
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/leg_left_hip_roll_visual.stl
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/leg_left_hip_yaw_visual.stl
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/leg_left_knee_pitch_visual.stl
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/leg_right_ankle_pitch_visual.stl
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/leg_right_ankle_roll_visual.stl
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/leg_right_hip_pitch_visual.stl
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/leg_right_hip_roll_visual.stl
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/leg_right_hip_yaw_visual.stl
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//meshes/leg_right_knee_pitch_visual.stl
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//launch/biped_display.launch.py
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//launch/mina_display.launch.py
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//launch/mina_rsp.launch.py
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description//rviz/mina.rviz
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/ament_index/resource_index/package_run_dependencies/mina_description
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/ament_index/resource_index/parent_prefix_path/mina_description
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/environment/ament_prefix_path.sh
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/environment/ament_prefix_path.dsv
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/environment/path.sh
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/environment/path.dsv
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/local_setup.bash
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/local_setup.sh
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/local_setup.zsh
+[0.470s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/local_setup.dsv
+[0.470s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/package.dsv
+[0.478s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/ament_index/resource_index/packages/mina_description
+[0.478s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/cmake/mina_descriptionConfig.cmake
+[0.478s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/cmake/mina_descriptionConfig-version.cmake
+[0.478s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_description/share/mina_description/package.xml
+[0.480s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/mina_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/mina_description

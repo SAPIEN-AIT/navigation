@@ -1,0 +1,66 @@
+[0.022s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/mina_interfaces -- -j24 -l24
+[0.237s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.237s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.237s] [  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[0.237s] [  7%] Built target ament_cmake_python_symlink_mina_interfaces
+[0.263s] running egg_info
+[0.263s] creating mina_interfaces.egg-info
+[0.264s] writing mina_interfaces.egg-info/PKG-INFO
+[0.264s] writing dependency_links to mina_interfaces.egg-info/dependency_links.txt
+[0.264s] writing top-level names to mina_interfaces.egg-info/top_level.txt
+[0.264s] writing manifest file 'mina_interfaces.egg-info/SOURCES.txt'
+[0.266s] reading manifest file 'mina_interfaces.egg-info/SOURCES.txt'
+[0.267s] writing manifest file 'mina_interfaces.egg-info/SOURCES.txt'
+[0.275s] [  7%] Built target mina_interfaces__rs
+[0.291s] [  7%] Built target ament_cmake_python_build_mina_interfaces_egg
+[0.312s] [  7%] Built target mina_interfaces__cpp
+[0.320s] [ 10%] [32mBuilding C object CMakeFiles/mina_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mina_interfaces/msg/detail/example__functions.c.o[0m
+[0.321s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.321s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.321s] [ 17%] [32mBuilding C object CMakeFiles/mina_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mina_interfaces/srv/detail/switch_control__functions.c.o[0m
+[0.322s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.375s] [ 22%] [32m[1mLinking C shared library libmina_interfaces__rosidl_generator_c.so[0m
+[0.411s] [ 22%] Built target mina_interfaces__rosidl_generator_c
+[0.421s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.422s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.422s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.534s] [ 32%] [32mBuilding CXX object CMakeFiles/mina_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mina_interfaces/msg/example__type_support.cpp.o[0m
+[0.535s] [ 35%] [32mBuilding CXX object CMakeFiles/mina_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mina_interfaces/srv/switch_control__type_support.cpp.o[0m
+[0.550s] [ 37%] [32mBuilding CXX object CMakeFiles/mina_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mina_interfaces/srv/detail/dds_fastrtps/switch_control__type_support.cpp.o[0m
+[0.551s] [ 40%] [32mBuilding CXX object CMakeFiles/mina_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mina_interfaces/msg/detail/dds_fastrtps/example__type_support.cpp.o[0m
+[0.554s] [ 42%] [32mBuilding CXX object CMakeFiles/mina_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mina_interfaces/msg/detail/example__type_support.cpp.o[0m
+[0.557s] [ 45%] [32mBuilding CXX object CMakeFiles/mina_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mina_interfaces/srv/detail/switch_control__type_support.cpp.o[0m
+[0.660s] [ 47%] [32mBuilding CXX object CMakeFiles/mina_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mina_interfaces/msg/detail/example__type_support_c.cpp.o[0m
+[0.661s] [ 50%] [32mBuilding CXX object CMakeFiles/mina_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mina_interfaces/srv/detail/switch_control__type_support_c.cpp.o[0m
+[0.699s] [ 52%] [32mBuilding C object CMakeFiles/mina_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mina_interfaces/msg/detail/example__type_support.c.o[0m
+[0.699s] [ 55%] [32mBuilding C object CMakeFiles/mina_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mina_interfaces/srv/detail/switch_control__type_support.c.o[0m
+[0.702s] [ 60%] [32mBuilding CXX object CMakeFiles/mina_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mina_interfaces/msg/example__type_support.cpp.o[0m
+[0.702s] [ 60%] [32mBuilding CXX object CMakeFiles/mina_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mina_interfaces/srv/switch_control__type_support.cpp.o[0m
+[0.743s] [ 62%] [32m[1mLinking C shared library libmina_interfaces__rosidl_typesupport_introspection_c.so[0m
+[0.744s] [ 65%] [32m[1mLinking CXX shared library libmina_interfaces__rosidl_typesupport_c.so[0m
+[0.802s] [ 65%] Built target mina_interfaces__rosidl_typesupport_introspection_c
+[0.831s] [ 65%] Built target mina_interfaces__rosidl_typesupport_c
+[0.991s] [ 67%] [32m[1mLinking CXX shared library libmina_interfaces__rosidl_typesupport_cpp.so[0m
+[1.022s] [ 70%] [32m[1mLinking CXX shared library libmina_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.043s] [ 72%] [32m[1mLinking CXX shared library libmina_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.047s] [ 72%] Built target mina_interfaces__rosidl_typesupport_cpp
+[1.096s] [ 72%] Built target mina_interfaces__rosidl_typesupport_introspection_cpp
+[1.126s] [ 72%] Built target mina_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.143s] [ 75%] [32m[1mLinking CXX shared library libmina_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.217s] [ 75%] Built target mina_interfaces__rosidl_typesupport_fastrtps_c
+[1.236s] [ 75%] Built target mina_interfaces
+[1.257s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.580s] [ 77%] Built target mina_interfaces__py
+[1.602s] [ 80%] [32mBuilding C object CMakeFiles/mina_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mina_interfaces/msg/_example_s.c.o[0m
+[1.602s] [ 82%] [32mBuilding C object CMakeFiles/mina_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mina_interfaces/srv/_switch_control_s.c.o[0m
+[1.703s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/mina_interfaces/libmina_interfaces__rosidl_generator_py.so[0m
+[1.743s] [ 85%] Built target mina_interfaces__rosidl_generator_py
+[1.764s] [ 87%] [32mBuilding C object CMakeFiles/mina_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/mina_interfaces/_mina_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[1.765s] [ 92%] [32mBuilding C object CMakeFiles/mina_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/mina_interfaces/_mina_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.765s] [ 92%] [32mBuilding C object CMakeFiles/mina_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/mina_interfaces/_mina_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.847s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/mina_interfaces/mina_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.852s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/mina_interfaces/mina_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.853s] [100%] [32m[1mLinking C shared library rosidl_generator_py/mina_interfaces/mina_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.883s] [100%] Built target mina_interfaces__rosidl_typesupport_c__pyext
+[1.884s] [100%] Built target mina_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.884s] [100%] Built target mina_interfaces__rosidl_typesupport_introspection_c__pyext

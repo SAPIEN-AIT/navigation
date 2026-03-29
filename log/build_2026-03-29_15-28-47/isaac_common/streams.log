@@ -1,0 +1,30 @@
+[0.296s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_common': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_common -- -j24 -l24
+[0.779s] [ 11%] Built target generate_version_info_target_isaac_common
+[0.779s] [ 33%] Built target gtest
+[0.779s] [ 55%] Built target gtest_main
+[0.779s] [ 77%] Built target isaac_common_test_message_stream_synchronizer
+[0.779s] [100%] Built target isaac_common_test_message_buffer
+[0.816s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_common' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_common -- -j24 -l24
+[0.817s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_common': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/isaac_common
+[1.040s] -- Install configuration: "Release"
+[1.040s] -- Execute custom install script
+[1.041s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/version_info.yaml
+[1.041s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/include/isaac_common/messaging/message_buffer.hpp
+[1.041s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/include/isaac_common/messaging/message_stream_synchronizer.hpp
+[1.041s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/ament_index/resource_index/package_run_dependencies/isaac_common
+[1.041s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/ament_index/resource_index/parent_prefix_path/isaac_common
+[1.041s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/environment/ament_prefix_path.sh
+[1.041s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/environment/ament_prefix_path.dsv
+[1.041s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/environment/path.sh
+[1.042s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/environment/path.dsv
+[1.042s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/local_setup.bash
+[1.042s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/local_setup.sh
+[1.042s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/local_setup.zsh
+[1.042s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/local_setup.dsv
+[1.042s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/package.dsv
+[1.042s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/ament_index/resource_index/packages/isaac_common
+[1.042s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.042s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/cmake/isaac_commonConfig.cmake
+[1.042s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/cmake/isaac_commonConfig-version.cmake
+[1.042s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_common/share/isaac_common/package.xml
+[1.135s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_common' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/isaac_common

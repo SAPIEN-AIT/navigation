@@ -1,0 +1,29 @@
+[100%] [34m[1mGenerating version information as YAML[0m
+[100%] Built target generate_version_info_target_isaac_ros_test_cmake
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/ament_index/resource_index/isaac_ros_test_cmake_cmake_path/isaac_ros_test_cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/ament_index/resource_index/dummy_bag/isaac_ros_test_cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/ament_index/resource_index/graph_startup_test/isaac_ros_test_cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/version_info.yaml
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/test/test_launchfile.launch.py
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/resources/dummy_bag/dummy_bag.db3
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/resources/dummy_bag/metadata.yaml
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/isaac_ros_test_cmake/isaac_ros_graph_startup_test.py
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/ament_index/resource_index/package_run_dependencies/isaac_ros_test_cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/ament_index/resource_index/parent_prefix_path/isaac_ros_test_cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/environment/ament_prefix_path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/environment/ament_prefix_path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/environment/path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/environment/path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/local_setup.bash
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/local_setup.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/local_setup.zsh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/local_setup.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/package.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/ament_index/resource_index/packages/isaac_ros_test_cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/cmake/isaac_ros_test_cmake-extras-graph-test.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/cmake/isaac_ros_test_cmakeConfig.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/cmake/isaac_ros_test_cmakeConfig-version.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_test_cmake/share/isaac_ros_test_cmake/package.xml

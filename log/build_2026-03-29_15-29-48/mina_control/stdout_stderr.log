@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing mina_control.egg-info/PKG-INFO
+writing dependency_links to mina_control.egg-info/dependency_links.txt
+writing entry points to mina_control.egg-info/entry_points.txt
+writing requirements to mina_control.egg-info/requires.txt
+writing top-level names to mina_control.egg-info/top_level.txt
+reading manifest file 'mina_control.egg-info/SOURCES.txt'
+writing manifest file 'mina_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/python3.10/site-packages/mina-control.egg-link (link to .)
+Installing dynamic_switch script to /home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/mina_control
+Installing mina_fsm script to /home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/mina_control
+Installing mina_vmc script to /home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/mina_control
+Installing rl_controller script to /home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/mina_control
+Installing switch_test_adapter script to /home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/mina_control
+
+Installed /home/edgard/Desktop/AITEAM/nav/build/mina_control
+running symlink_data

@@ -1,0 +1,150 @@
+[0.018s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/mina_interfaces -- -j24 -l24
+[0.236s] [  2%] Built target mina_interfaces__cpp
+[0.236s] [  5%] Built target mina_interfaces__rs
+[0.236s] [ 15%] Built target mina_interfaces__rosidl_generator_c
+[0.236s] [ 15%] Built target ament_cmake_python_symlink_mina_interfaces
+[0.236s] [ 25%] Built target mina_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.236s] [ 35%] Built target mina_interfaces__rosidl_typesupport_introspection_c
+[0.236s] [ 50%] Built target mina_interfaces__rosidl_typesupport_cpp
+[0.236s] [ 55%] Built target mina_interfaces__rosidl_typesupport_c
+[0.236s] [ 65%] Built target mina_interfaces__rosidl_typesupport_introspection_cpp
+[0.236s] [ 75%] Built target mina_interfaces__rosidl_typesupport_fastrtps_c
+[0.236s] [ 75%] Built target mina_interfaces
+[0.236s] [ 77%] Built target mina_interfaces__py
+[0.236s] [ 85%] Built target mina_interfaces__rosidl_generator_py
+[0.236s] [ 90%] Built target mina_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.236s] [ 95%] Built target mina_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.236s] [100%] Built target mina_interfaces__rosidl_typesupport_c__pyext
+[0.263s] running egg_info
+[0.263s] writing mina_interfaces.egg-info/PKG-INFO
+[0.264s] writing dependency_links to mina_interfaces.egg-info/dependency_links.txt
+[0.264s] writing top-level names to mina_interfaces.egg-info/top_level.txt
+[0.266s] reading manifest file 'mina_interfaces.egg-info/SOURCES.txt'
+[0.266s] writing manifest file 'mina_interfaces.egg-info/SOURCES.txt'
+[0.292s] [100%] Built target ament_cmake_python_build_mina_interfaces_egg
+[0.462s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/mina_interfaces -- -j24 -l24
+[0.463s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/mina_interfaces
+[0.470s] -- Install configuration: ""
+[0.471s] -- Execute custom install script
+[0.471s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/ament_index/resource_index/rosidl_interfaces/mina_interfaces
+[0.471s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/detail/example__functions.h
+[0.471s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/detail/example__struct.h
+[0.471s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/detail/example__type_support.h
+[0.471s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/example.h
+[0.471s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.472s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/detail/switch_control__functions.h
+[0.473s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/detail/switch_control__struct.h
+[0.473s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/detail/switch_control__type_support.h
+[0.473s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/switch_control.h
+[0.473s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/environment/library_path.sh
+[0.474s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/environment/library_path.dsv
+[0.474s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/detail/example__rosidl_typesupport_fastrtps_c.h
+[0.474s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.474s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/detail/switch_control__rosidl_typesupport_fastrtps_c.h
+[0.474s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/detail/example__rosidl_typesupport_introspection_c.h
+[0.475s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.475s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/detail/switch_control__rosidl_typesupport_introspection_c.h
+[0.475s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/detail/example__builder.hpp
+[0.475s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/detail/example__struct.hpp
+[0.477s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/detail/example__traits.hpp
+[0.477s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/detail/example__type_support.hpp
+[0.477s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/example.hpp
+[0.477s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.477s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/detail/switch_control__builder.hpp
+[0.477s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/detail/switch_control__struct.hpp
+[0.477s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/detail/switch_control__traits.hpp
+[0.477s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/detail/switch_control__type_support.hpp
+[0.478s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/switch_control.hpp
+[0.478s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/detail/example__rosidl_typesupport_fastrtps_cpp.hpp
+[0.478s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.478s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/detail/switch_control__rosidl_typesupport_fastrtps_cpp.hpp
+[0.481s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/msg/detail/example__rosidl_typesupport_introspection_cpp.hpp
+[0.481s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/include/mina_interfaces/mina_interfaces/srv/detail/switch_control__rosidl_typesupport_introspection_cpp.hpp
+[0.481s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/environment/pythonpath.sh
+[0.481s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/environment/pythonpath.dsv
+[0.481s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/__init__.py
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/_mina_interfaces_s.ep.rosidl_typesupport_c.c
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/_mina_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/_mina_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/libmina_interfaces__rosidl_generator_py.so
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/mina_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/mina_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/mina_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/msg/__init__.py
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/msg/_example.py
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/msg/_example_s.c
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/srv/__init__.py
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/srv/_switch_control.py
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/srv/_switch_control_s.c
+[0.482s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/mina_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.483s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/mina_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.483s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/mina_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.483s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/ament_index/resource_index/rust_packages/mina_interfaces
+[0.483s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/rust/Cargo.toml
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/rust/build.rs
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/rust/src/lib.rs
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/rust/src/msg.rs
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/rust/src/msg/rmw.rs
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/rust/src/srv.rs
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/rust/src/srv/rmw.rs
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/msg/Example.idl
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/srv/SwitchControl.idl
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/msg/Example.msg
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/srv/SwitchControl.srv
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/srv/SwitchControl_Request.msg
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/srv/SwitchControl_Response.msg
+[0.484s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/ament_index/resource_index/package_run_dependencies/mina_interfaces
+[0.485s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/ament_index/resource_index/parent_prefix_path/mina_interfaces
+[0.485s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/environment/ament_prefix_path.sh
+[0.485s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/environment/ament_prefix_path.dsv
+[0.485s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/environment/path.sh
+[0.485s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/environment/path.dsv
+[0.485s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/local_setup.bash
+[0.485s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/local_setup.sh
+[0.485s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/local_setup.zsh
+[0.486s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/local_setup.dsv
+[0.486s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/package.dsv
+[0.486s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/ament_index/resource_index/packages/mina_interfaces
+[0.486s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.486s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.486s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.486s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.487s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.487s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.487s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.487s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/mina_interfacesConfig.cmake
+[0.487s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/mina_interfacesConfig-version.cmake
+[0.487s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/package.xml
+[0.487s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/lib/libmina_interfaces__rosidl_generator_c.so
+[0.487s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/lib/libmina_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.487s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/lib/libmina_interfaces__rosidl_typesupport_introspection_c.so
+[0.487s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/lib/libmina_interfaces__rosidl_typesupport_c.so
+[0.488s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/lib/libmina_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.488s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/lib/libmina_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.488s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/lib/libmina_interfaces__rosidl_typesupport_cpp.so
+[0.521s] Listing '/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces'...
+[0.521s] Listing '/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/msg'...
+[0.521s] Listing '/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages/mina_interfaces/srv'...
+[0.526s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/lib/libmina_interfaces__rosidl_generator_py.so
+[0.527s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/export_mina_interfaces__rosidl_generator_cExport.cmake
+[0.527s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/export_mina_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.527s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/export_mina_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.527s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/export_mina_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.527s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/mina_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.527s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/mina_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.527s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/mina_interfaces__rosidl_typesupport_cExport.cmake
+[0.527s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/mina_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.527s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/export_mina_interfaces__rosidl_generator_cppExport.cmake
+[0.527s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/export_mina_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.528s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/export_mina_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.528s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/mina_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.528s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/mina_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.529s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/mina_interfaces__rosidl_typesupport_cppExport.cmake
+[0.529s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/mina_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.529s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/export_mina_interfaces__rosidl_generator_pyExport.cmake
+[0.529s] -- Up-to-date: /home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/share/mina_interfaces/cmake/export_mina_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.581s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/mina_interfaces

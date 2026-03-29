@@ -1,0 +1,197 @@
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  7%] [34m[1mGenerating version information as YAML[0m
+[  9%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[  9%] Built target ament_cmake_python_symlink_isaac_ros_nitros_bridge_interfaces
+[  9%] Built target generate_version_info_target_isaac_ros_nitros_bridge_interfaces
+[  9%] Built target isaac_ros_nitros_bridge_interfaces__rs
+[  9%] Built target isaac_ros_nitros_bridge_interfaces__cpp
+running egg_info
+creating isaac_ros_nitros_bridge_interfaces.egg-info
+writing isaac_ros_nitros_bridge_interfaces.egg-info/PKG-INFO
+writing dependency_links to isaac_ros_nitros_bridge_interfaces.egg-info/dependency_links.txt
+writing top-level names to isaac_ros_nitros_bridge_interfaces.egg-info/top_level.txt
+writing manifest file 'isaac_ros_nitros_bridge_interfaces.egg-info/SOURCES.txt'
+reading manifest file 'isaac_ros_nitros_bridge_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'isaac_ros_nitros_bridge_interfaces.egg-info/SOURCES.txt'
+[ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 17%] Built target ament_cmake_python_build_isaac_ros_nitros_bridge_interfaces_egg
+[ 19%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_generator_c.dir/rosidl_generator_c/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__functions.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_generator_c.dir/rosidl_generator_c/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__functions.c.o[0m
+[ 24%] [32m[1mLinking C shared library libisaac_ros_nitros_bridge_interfaces__rosidl_generator_c.so[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/isaac_ros_nitros_bridge_interfaces/msg/nitros_bridge_tensor_list__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/isaac_ros_nitros_bridge_interfaces/msg/nitros_bridge_image__type_support.cpp.o[0m
+[ 29%] Built target isaac_ros_nitros_bridge_interfaces__rosidl_generator_c
+[ 31%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__type_support.cpp.o[0m
+[ 36%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 39%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/isaac_ros_nitros_bridge_interfaces/msg/detail/dds_fastrtps/nitros_bridge_tensor_list__type_support.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/isaac_ros_nitros_bridge_interfaces/msg/detail/dds_fastrtps/nitros_bridge_image__type_support.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_cpp.so[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/isaac_ros_nitros_bridge_interfaces/msg/nitros_bridge_tensor_list__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/isaac_ros_nitros_bridge_interfaces/msg/nitros_bridge_image__type_support.cpp.o[0m
+[ 53%] Built target isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_cpp
+[ 58%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__type_support_c.cpp.o[0m
+[ 58%] [32m[1mLinking CXX shared library libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_c.so[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__type_support_c.cpp.o[0m
+[ 60%] Built target isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_c
+[ 65%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__type_support.c.o[0m
+[ 65%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__type_support.c.o[0m
+[ 68%] [32m[1mLinking C shared library libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 68%] Built target isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_c
+[ 70%] [32m[1mLinking CXX shared library libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 73%] [32m[1mLinking CXX shared library libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 73%] Built target isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 75%] [32m[1mLinking CXX shared library libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 75%] Built target isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_cpp
+[ 75%] Built target isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_c
+[ 75%] Built target isaac_ros_nitros_bridge_interfaces
+[ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 78%] Built target isaac_ros_nitros_bridge_interfaces__py
+[ 80%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_generator_py.dir/rosidl_generator_py/isaac_ros_nitros_bridge_interfaces/msg/_nitros_bridge_tensor_list_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_generator_py.dir/rosidl_generator_py/isaac_ros_nitros_bridge_interfaces/msg/_nitros_bridge_image_s.c.o[0m
+[ 85%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_nitros_bridge_interfaces/libisaac_ros_nitros_bridge_interfaces__rosidl_generator_py.so[0m
+[ 85%] Built target isaac_ros_nitros_bridge_interfaces__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/isaac_ros_nitros_bridge_interfaces/_isaac_ros_nitros_bridge_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/isaac_ros_nitros_bridge_interfaces/_isaac_ros_nitros_bridge_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/isaac_ros_nitros_bridge_interfaces/_isaac_ros_nitros_bridge_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/ament_index/resource_index/rosidl_interfaces/isaac_ros_nitros_bridge_interfaces
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__functions.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__struct.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__type_support.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__functions.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__struct.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__type_support.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/nitros_bridge_image.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/nitros_bridge_tensor_list.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/environment/library_path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/environment/library_path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__builder.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__struct.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__traits.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__type_support.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__builder.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__struct.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__traits.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__type_support.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/nitros_bridge_image.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/nitros_bridge_tensor_list.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_image__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/include/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces/msg/detail/nitros_bridge_tensor_list__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/environment/pythonpath.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/environment/pythonpath.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces-3.2.5-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces-3.2.5-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces-3.2.5-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces-3.2.5-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/__init__.py
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/_isaac_ros_nitros_bridge_interfaces_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/_isaac_ros_nitros_bridge_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/_isaac_ros_nitros_bridge_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/libisaac_ros_nitros_bridge_interfaces__rosidl_generator_py.so
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/msg/__init__.py
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/msg/_nitros_bridge_image.py
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/msg/_nitros_bridge_image_s.c
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/msg/_nitros_bridge_tensor_list.py
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/msg/_nitros_bridge_tensor_list_s.c
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/isaac_ros_nitros_bridge_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/ament_index/resource_index/rust_packages/isaac_ros_nitros_bridge_interfaces
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/rust/Cargo.toml
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/rust/build.rs
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/rust/src/lib.rs
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/rust/src/msg.rs
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/rust/src/msg/rmw.rs
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/msg/NitrosBridgeImage.idl
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/msg/NitrosBridgeTensorList.idl
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/msg/NitrosBridgeImage.msg
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/msg/NitrosBridgeTensorList.msg
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/version_info.yaml
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/ament_index/resource_index/package_run_dependencies/isaac_ros_nitros_bridge_interfaces
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/ament_index/resource_index/parent_prefix_path/isaac_ros_nitros_bridge_interfaces
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/environment/ament_prefix_path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/environment/ament_prefix_path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/environment/path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/environment/path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/local_setup.bash
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/local_setup.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/local_setup.zsh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/local_setup.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/package.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/ament_index/resource_index/packages/isaac_ros_nitros_bridge_interfaces
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/isaac_ros_nitros_bridge_interfacesConfig.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/isaac_ros_nitros_bridge_interfacesConfig-version.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/package.xml
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_generator_c.so
+-- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_generator_c.so" to ""
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_c.so
+-- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_c.so" to ""
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_typesupport_cpp.so" to ""
+Listing '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces'...
+Compiling '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/__init__.py'...
+Listing '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/msg'...
+Compiling '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/msg/__init__.py'...
+Compiling '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/msg/_nitros_bridge_image.py'...
+Compiling '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/local/lib/python3.10/dist-packages/isaac_ros_nitros_bridge_interfaces/msg/_nitros_bridge_tensor_list.py'...
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_generator_py.so
+-- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/lib/libisaac_ros_nitros_bridge_interfaces__rosidl_generator_py.so" to ""
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/export_isaac_ros_nitros_bridge_interfaces__rosidl_generator_cExport.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/export_isaac_ros_nitros_bridge_interfaces__rosidl_generator_cExport-release.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/export_isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/export_isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_cExport.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/export_isaac_ros_nitros_bridge_interfaces__rosidl_generator_cppExport.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/export_isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/export_isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/isaac_ros_nitros_bridge_interfaces__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/export_isaac_ros_nitros_bridge_interfaces__rosidl_generator_pyExport.cmake
+-- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_nitros_bridge_interfaces/share/isaac_ros_nitros_bridge_interfaces/cmake/export_isaac_ros_nitros_bridge_interfaces__rosidl_generator_pyExport-release.cmake

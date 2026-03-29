@@ -1,0 +1,66 @@
+[0.018s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/zed_components -- -j24 -l24
+[0.246s] -- Found CUDA: /usr/local/cuda (found suitable version "13.0", minimum required is "13") 
+[0.246s] -- Found CUDA: /usr/local/cuda (found version "13.0") 
+[0.246s] -- Found ament_cmake_auto: 1.3.14 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.246s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.324s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.326s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.331s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.338s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.349s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.419s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.419s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.522s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.737s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.739s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.832s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.847s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.848s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.848s] -- Configured cppcheck include dirs: /home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components/src/include;/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/home/edgard/Desktop/AITEAM/nav/src/isaac/src/zed-ros2-wrapper/zed_components/src/tools/include
+[0.848s] -- Configured cppcheck exclude dirs and/or files: 
+[0.848s] -- Added test 'lint_cmake' to check CMake code style
+[0.849s] -- Added test 'uncrustify' to check C / C++ code style
+[0.849s] -- Configured uncrustify additional arguments: 
+[0.849s] -- Added test 'xmllint' to check XML markup files
+[0.851s] -- Configuring done
+[0.871s] -- Generating done
+[0.872s] -- Build files have been written to: /home/edgard/Desktop/AITEAM/nav/build/zed_components
+[0.916s] [35m[1mConsolidate compiler generated dependencies of target zed_camera_component[0m
+[0.943s] [100%] Built target zed_camera_component
+[1.548s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/zed_components -- -j24 -l24
+[1.549s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/zed_components
+[1.562s] -- Install configuration: "Release"
+[1.562s] -- Execute custom install script
+[1.562s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/lib/libzed_camera_component.so
+[1.575s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/include/zed_components//cost_traversability.hpp
+[1.582s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/include/zed_components//sl_types.hpp
+[1.583s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/include/zed_components//zed_camera_component.hpp
+[1.590s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/include/zed_components//zed_camera_one_component.hpp
+[1.606s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/include/zed_components//gnss_replay.hpp
+[1.661s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/include/zed_components//json.hpp
+[1.673s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/include/zed_components//sl_logging.hpp
+[1.678s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/include/zed_components//sl_tools.hpp
+[1.681s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/include/zed_components//sl_win_avg.hpp
+[1.687s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/include/zed_components//visibility_control.hpp
+[1.690s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/environment/library_path.sh
+[1.690s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/environment/library_path.dsv
+[1.693s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components
+[1.693s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components
+[1.697s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/environment/ament_prefix_path.sh
+[1.705s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv
+[1.723s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/environment/path.sh
+[1.727s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/environment/path.dsv
+[1.735s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/local_setup.bash
+[1.747s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/local_setup.sh
+[1.759s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/local_setup.zsh
+[1.772s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/local_setup.dsv
+[1.789s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/package.dsv
+[1.804s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/ament_index/resource_index/packages/zed_components
+[1.821s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components
+[1.834s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.862s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake
+[1.921s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.936s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake
+[1.955s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake
+[1.963s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/zed_components/share/zed_components/package.xml
+[2.211s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/zed_components

@@ -1,0 +1,21 @@
+[100%] Built target generate_version_info_target_isaac_ros_r2b_galileo
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/version_info.yaml
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/data/r2b_galileo/metadata.yaml
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/data/r2b_galileo/r2b_galileo_0.mcap
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/ament_index/resource_index/package_run_dependencies/isaac_ros_r2b_galileo
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/ament_index/resource_index/parent_prefix_path/isaac_ros_r2b_galileo
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/environment/path.sh
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/environment/path.dsv
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/local_setup.bash
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/local_setup.sh
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/local_setup.zsh
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/local_setup.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/package.dsv
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/ament_index/resource_index/packages/isaac_ros_r2b_galileo
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/cmake/isaac_ros_r2b_galileoConfig.cmake
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/cmake/isaac_ros_r2b_galileoConfig-version.cmake
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_r2b_galileo/share/isaac_ros_r2b_galileo/package.xml

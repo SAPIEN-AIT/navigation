@@ -1,0 +1,169 @@
+[0.495s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces -- -j24 -l24
+[0.739s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_apriltag_interfaces__rosidl_generator_c[0m
+[0.740s] [  2%] Built target generate_version_info_target_isaac_ros_apriltag_interfaces
+[0.740s] [  4%] Built target isaac_ros_apriltag_interfaces__cpp
+[0.740s] [  7%] Built target isaac_ros_apriltag_interfaces__rs
+[0.740s] [ 17%] Built target isaac_ros_apriltag_interfaces__rosidl_generator_c
+[0.740s] [ 17%] Built target ament_cmake_python_symlink_isaac_ros_apriltag_interfaces
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_apriltag_interfaces__rosidl_typesupport_cpp[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_c[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_apriltag_interfaces__rosidl_typesupport_c[0m
+[0.740s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.741s] [ 26%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_cpp
+[0.741s] [ 36%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_c
+[0.741s] [ 46%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_c
+[0.741s] [ 56%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_c
+[0.741s] [ 65%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_cpp
+[0.741s] [ 75%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.741s] [ 75%] Built target isaac_ros_apriltag_interfaces
+[0.741s] [ 78%] Built target isaac_ros_apriltag_interfaces__py
+[0.741s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_apriltag_interfaces__rosidl_generator_py[0m
+[0.741s] [ 85%] Built target isaac_ros_apriltag_interfaces__rosidl_generator_py
+[0.741s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.741s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.741s] [35m[1mConsolidate compiler generated dependencies of target isaac_ros_apriltag_interfaces__rosidl_typesupport_c__pyext[0m
+[0.741s] [ 90%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.741s] [ 95%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.741s] [100%] Built target isaac_ros_apriltag_interfaces__rosidl_typesupport_c__pyext
+[0.746s] running egg_info
+[0.746s] writing isaac_ros_apriltag_interfaces.egg-info/PKG-INFO
+[0.746s] writing dependency_links to isaac_ros_apriltag_interfaces.egg-info/dependency_links.txt
+[0.746s] writing top-level names to isaac_ros_apriltag_interfaces.egg-info/top_level.txt
+[0.746s] reading manifest file 'isaac_ros_apriltag_interfaces.egg-info/SOURCES.txt'
+[0.746s] writing manifest file 'isaac_ros_apriltag_interfaces.egg-info/SOURCES.txt'
+[0.766s] [100%] Built target ament_cmake_python_build_isaac_ros_apriltag_interfaces_egg
+[1.020s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces -- -j24 -l24
+[1.020s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces
+[1.052s] -- Install configuration: "Release"
+[1.052s] -- Execute custom install script
+[1.052s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/ament_index/resource_index/rosidl_interfaces/isaac_ros_apriltag_interfaces
+[1.052s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/april_tag_detection.h
+[1.064s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/april_tag_detection_array.h
+[1.065s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__functions.h
+[1.072s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__struct.h
+[1.089s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__type_support.h
+[1.114s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__functions.h
+[1.135s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__struct.h
+[1.152s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__type_support.h
+[1.182s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.214s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/environment/library_path.sh
+[1.233s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/environment/library_path.dsv
+[1.249s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[1.268s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[1.283s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.296s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[1.311s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[1.321s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.332s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/april_tag_detection.hpp
+[1.347s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/april_tag_detection_array.hpp
+[1.355s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__builder.hpp
+[1.366s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__struct.hpp
+[1.372s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__traits.hpp
+[1.381s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__type_support.hpp
+[1.398s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__builder.hpp
+[1.408s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__struct.hpp
+[1.415s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__traits.hpp
+[1.424s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__type_support.hpp
+[1.432s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.445s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[1.457s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[1.463s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.478s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[1.484s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/include/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[1.498s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/environment/pythonpath.sh
+[1.528s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/environment/pythonpath.dsv
+[1.561s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces-3.2.5-py3.10.egg-info/PKG-INFO
+[1.579s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces-3.2.5-py3.10.egg-info/SOURCES.txt
+[1.594s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces-3.2.5-py3.10.egg-info/dependency_links.txt
+[1.611s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces-3.2.5-py3.10.egg-info/top_level.txt
+[1.621s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/__init__.py
+[1.635s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/_isaac_ros_apriltag_interfaces_s.ep.rosidl_typesupport_c.c
+[1.645s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/_isaac_ros_apriltag_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.657s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/_isaac_ros_apriltag_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.670s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.686s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.699s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.714s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/libisaac_ros_apriltag_interfaces__rosidl_generator_py.so
+[1.724s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/msg/__init__.py
+[1.735s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/msg/_april_tag_detection.py
+[1.747s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/msg/_april_tag_detection_array.py
+[1.757s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/msg/_april_tag_detection_array_s.c
+[1.771s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/msg/_april_tag_detection_s.c
+[1.781s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.781s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.781s] -- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/isaac_ros_apriltag_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.781s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/ament_index/resource_index/rust_packages/isaac_ros_apriltag_interfaces
+[1.796s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/rust/Cargo.toml
+[1.811s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/rust/build.rs
+[1.828s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/rust/src/lib.rs
+[1.837s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/rust/src/msg.rs
+[1.851s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/rust/src/msg/rmw.rs
+[1.870s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/msg/AprilTagDetection.idl
+[1.887s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/msg/AprilTagDetectionArray.idl
+[1.904s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/msg/AprilTagDetection.msg
+[1.921s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/msg/AprilTagDetectionArray.msg
+[1.942s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/version_info.yaml
+[1.964s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/ament_index/resource_index/package_run_dependencies/isaac_ros_apriltag_interfaces
+[1.995s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/ament_index/resource_index/parent_prefix_path/isaac_ros_apriltag_interfaces
+[2.023s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/environment/ament_prefix_path.sh
+[2.043s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/environment/ament_prefix_path.dsv
+[2.059s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/environment/path.sh
+[2.071s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/environment/path.dsv
+[2.084s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/local_setup.bash
+[2.099s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/local_setup.sh
+[2.117s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/local_setup.zsh
+[2.133s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/local_setup.dsv
+[2.146s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/package.dsv
+[2.162s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/ament_index/resource_index/packages/isaac_ros_apriltag_interfaces
+[2.174s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.189s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.206s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.230s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.242s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.254s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.264s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.275s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/isaac_ros_apriltag_interfacesConfig.cmake
+[2.286s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/isaac_ros_apriltag_interfacesConfig-version.cmake
+[2.300s] -- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/package.xml
+[2.315s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_generator_c.so
+[2.316s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_generator_c.so" to ""
+[2.316s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.317s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[2.317s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_c.so
+[2.319s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[2.319s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_typesupport_c.so
+[2.320s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_typesupport_c.so" to ""
+[2.320s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.322s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.323s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.323s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[2.323s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_typesupport_cpp.so
+[2.324s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_typesupport_cpp.so" to ""
+[2.408s] Listing '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces'...
+[2.408s] Compiling '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/__init__.py'...
+[2.408s] Listing '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/msg'...
+[2.409s] Compiling '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/msg/__init__.py'...
+[2.409s] Compiling '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/msg/_april_tag_detection.py'...
+[2.409s] Compiling '/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/local/lib/python3.10/dist-packages/isaac_ros_apriltag_interfaces/msg/_april_tag_detection_array.py'...
+[2.416s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_generator_py.so
+[2.418s] -- Set runtime path of "/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/lib/libisaac_ros_apriltag_interfaces__rosidl_generator_py.so" to ""
+[2.418s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/export_isaac_ros_apriltag_interfaces__rosidl_generator_cExport.cmake
+[2.418s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/export_isaac_ros_apriltag_interfaces__rosidl_generator_cExport-release.cmake
+[2.419s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/export_isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.419s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/export_isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[2.419s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.423s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[2.423s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/isaac_ros_apriltag_interfaces__rosidl_typesupport_cExport.cmake
+[2.423s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/isaac_ros_apriltag_interfaces__rosidl_typesupport_cExport-release.cmake
+[2.424s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/export_isaac_ros_apriltag_interfaces__rosidl_generator_cppExport.cmake
+[2.424s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/export_isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.424s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/export_isaac_ros_apriltag_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[2.424s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.425s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/isaac_ros_apriltag_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[2.425s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/isaac_ros_apriltag_interfaces__rosidl_typesupport_cppExport.cmake
+[2.425s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/isaac_ros_apriltag_interfaces__rosidl_typesupport_cppExport-release.cmake
+[2.425s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/export_isaac_ros_apriltag_interfaces__rosidl_generator_pyExport.cmake
+[2.426s] -- Installing: /home/edgard/Desktop/AITEAM/nav/install/isaac_ros_apriltag_interfaces/share/isaac_ros_apriltag_interfaces/cmake/export_isaac_ros_apriltag_interfaces__rosidl_generator_pyExport-release.cmake
+[2.438s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/bin:${PATH} PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/install/isaac_ros_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/edgard/Desktop/AITEAM/nav/build/isaac_ros_apriltag_interfaces

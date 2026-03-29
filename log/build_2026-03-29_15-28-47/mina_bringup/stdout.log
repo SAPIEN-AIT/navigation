@@ -1,0 +1,19 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/launch/policy_tester_sim.launch.py
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/rviz/mina_visual.rviz
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/ament_index/resource_index/package_run_dependencies/mina_bringup
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/ament_index/resource_index/parent_prefix_path/mina_bringup
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/environment/path.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/environment/path.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/local_setup.bash
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/local_setup.sh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/local_setup.zsh
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/local_setup.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/package.dsv
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/ament_index/resource_index/packages/mina_bringup
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/cmake/mina_bringupConfig.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/cmake/mina_bringupConfig-version.cmake
+-- Symlinking: /home/edgard/Desktop/AITEAM/nav/install/mina_bringup/share/mina_bringup/package.xml

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing mina_tasks.egg-info/PKG-INFO
+writing dependency_links to mina_tasks.egg-info/dependency_links.txt
+writing entry points to mina_tasks.egg-info/entry_points.txt
+writing requirements to mina_tasks.egg-info/requires.txt
+writing top-level names to mina_tasks.egg-info/top_level.txt
+reading manifest file 'mina_tasks.egg-info/SOURCES.txt'
+writing manifest file 'mina_tasks.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/edgard/Desktop/AITEAM/nav/install/mina_tasks/lib/python3.10/site-packages/mina-tasks.egg-link (link to .)
+Installing chess script to /home/edgard/Desktop/AITEAM/nav/install/mina_tasks/lib/mina_tasks
+
+Installed /home/edgard/Desktop/AITEAM/nav/build/mina_tasks
+running symlink_data

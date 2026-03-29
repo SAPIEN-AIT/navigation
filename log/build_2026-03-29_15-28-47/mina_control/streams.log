@@ -1,0 +1,21 @@
+[1.539s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_control': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/mina_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/python3.10/site-packages:/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/mina_control/build --no-deps symlink_data
+[1.767s] running develop
+[1.897s] running egg_info
+[1.897s] writing mina_control.egg-info/PKG-INFO
+[1.898s] writing dependency_links to mina_control.egg-info/dependency_links.txt
+[1.899s] writing entry points to mina_control.egg-info/entry_points.txt
+[1.899s] writing requirements to mina_control.egg-info/requires.txt
+[1.899s] writing top-level names to mina_control.egg-info/top_level.txt
+[1.899s] reading manifest file 'mina_control.egg-info/SOURCES.txt'
+[1.900s] writing manifest file 'mina_control.egg-info/SOURCES.txt'
+[1.961s] running build_ext
+[1.962s] Creating /home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/python3.10/site-packages/mina-control.egg-link (link to .)
+[1.965s] Installing dynamic_switch script to /home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/mina_control
+[1.966s] Installing mina_fsm script to /home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/mina_control
+[1.966s] Installing mina_vmc script to /home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/mina_control
+[1.966s] Installing rl_controller script to /home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/mina_control
+[1.966s] Installing switch_test_adapter script to /home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/mina_control
+[1.966s] 
+[1.966s] Installed /home/edgard/Desktop/AITEAM/nav/build/mina_control
+[1.966s] running symlink_data
+[2.027s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/mina_control' returned '0': AMENT_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/edgard/Downloads/TensorRT-10.13.2.6/lib PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/mina_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/mina_control/lib/python3.10/site-packages:/home/edgard/Desktop/AITEAM/nav/install/mina_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/mina_control/build --no-deps symlink_data

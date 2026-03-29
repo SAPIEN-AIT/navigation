@@ -1,0 +1,17 @@
+[1.541s] Invoking command in '/home/edgard/Desktop/AITEAM/nav/build/mina_tasks': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/mina_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/mina_tasks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/mina_tasks/build --no-deps symlink_data
+[2.002s] running develop
+[2.283s] running egg_info
+[2.283s] writing mina_tasks.egg-info/PKG-INFO
+[2.283s] writing dependency_links to mina_tasks.egg-info/dependency_links.txt
+[2.283s] writing entry points to mina_tasks.egg-info/entry_points.txt
+[2.283s] writing requirements to mina_tasks.egg-info/requires.txt
+[2.283s] writing top-level names to mina_tasks.egg-info/top_level.txt
+[2.286s] reading manifest file 'mina_tasks.egg-info/SOURCES.txt'
+[2.288s] writing manifest file 'mina_tasks.egg-info/SOURCES.txt'
+[2.366s] running build_ext
+[2.366s] Creating /home/edgard/Desktop/AITEAM/nav/install/mina_tasks/lib/python3.10/site-packages/mina-tasks.egg-link (link to .)
+[2.367s] Installing chess script to /home/edgard/Desktop/AITEAM/nav/install/mina_tasks/lib/mina_tasks
+[2.367s] 
+[2.368s] Installed /home/edgard/Desktop/AITEAM/nav/build/mina_tasks
+[2.368s] running symlink_data
+[2.430s] Invoked command in '/home/edgard/Desktop/AITEAM/nav/build/mina_tasks' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/edgard/Desktop/AITEAM/nav/build/mina_tasks/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/edgard/Desktop/AITEAM/nav/install/mina_tasks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/edgard/Desktop/AITEAM/nav/build/mina_tasks/build --no-deps symlink_data

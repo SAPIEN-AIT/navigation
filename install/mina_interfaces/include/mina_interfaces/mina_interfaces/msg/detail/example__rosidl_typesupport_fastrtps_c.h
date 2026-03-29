@@ -1,0 +1,1 @@
+/home/edgard/Desktop/AITEAM/nav/build/mina_interfaces/rosidl_typesupport_fastrtps_c/mina_interfaces/msg/detail/example__rosidl_typesupport_fastrtps_c.h
