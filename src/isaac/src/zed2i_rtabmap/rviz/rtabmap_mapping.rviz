@@ -1,0 +1,65 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Displays:
+    - Class: rviz_default_plugins/Grid
+      Name: Grid
+      Enabled: true
+      Cell Size: 1
+      Line Style:
+        Value: Lines
+      Reference Frame: <Fixed Frame>
+    - Class: rviz_default_plugins/TF
+      Name: TF
+      Enabled: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        {}
+    - Class: rviz_default_plugins/Map
+      Name: RTABMap Grid
+      Enabled: true
+      Topic:
+        Value: /map
+        Depth: 5
+        Durability Policy: Transient Local
+        Reliability Policy: Reliable
+      Alpha: 0.7
+      Color Scheme: map
+      Draw Behind: false
+    - Class: rviz_default_plugins/Image
+      Name: RGB Image
+      Enabled: true
+      Topic:
+        Value: /zed2i/zed_node/rgb/image_rect_color
+        Depth: 5
+      Max Value: 1
+      Min Value: 0
+    - Class: rviz_default_plugins/PointCloud2
+      Name: MapCloud
+      Enabled: false
+      Topic:
+        Value: /rtabmap/cloud_map
+        Depth: 5
+      Size (m): 0.02
+      Style: Points
+      Color Transformer: RGB8
+  Global Options:
+    Fixed Frame: map
+    Frame Rate: 30
+  Tools:
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Measure
+  Views:
+    Current:
+      Class: rviz_default_plugins/ThirdPersonFollower
+      Distance: 10
+      Focal Point:
+        X: 0
+        Y: 0
+        Z: 0
+      Name: Current View
+      Target Frame: zed2i_camera_center

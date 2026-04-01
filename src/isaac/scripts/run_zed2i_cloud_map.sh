@@ -30,6 +30,7 @@ from std_msgs.msg import Header
 import tf2_ros
 import tf2_py
 from geometry_msgs.msg import TransformStamped
+from visualization_msgs.msg import Marker
 import struct
 
 VOXEL_SIZE   = 0.05   # m — résolution de la map (plus petit = plus dense mais plus lourd)
@@ -42,7 +43,7 @@ class CloudMapAccumulator(Node):
         self.declare_parameter('voxel_size',   VOXEL_SIZE)
         self.declare_parameter('max_points',   MAX_POINTS)
         self.declare_parameter('update_every', UPDATE_EVERY)
-        self.declare_parameter('map_frame',    'map')
+        self.declare_parameter('map_frame',    'odom')
         self.declare_parameter('cloud_topic',  '/zed2i/zed_node/point_cloud/cloud_registered')
 
         self._voxel   = self.get_parameter('voxel_size').value
@@ -53,6 +54,8 @@ class CloudMapAccumulator(Node):
 
         self._accumulated = {}   # voxel key → (x, y, z, r, g, b)
         self._frame_count  = 0
+        self._last_pos     = None  # last camera position for jump detection
+        self._max_jump     = 0.3   # max allowed displacement per frame (m)
 
         self._tf_buffer   = tf2_ros.Buffer()
         self._tf_listener = tf2_ros.TransformListener(self._tf_buffer, self)
@@ -68,6 +71,8 @@ class CloudMapAccumulator(Node):
             reliability=ReliabilityPolicy.RELIABLE,
         )
         self._pub = self.create_publisher(PointCloud2, '/cloud_map', map_qos)
+        self._pub_filtered = self.create_publisher(PointCloud2, '/cloud_map_filtered', map_qos)
+        self._pub_marker = self.create_publisher(Marker, '/camera_position', map_qos)
         self.create_timer(1.0, self._publish_map)
 
         self.get_logger().info(
@@ -97,6 +102,16 @@ class CloudMapAccumulator(Node):
         T  = np.array([tx.x, tx.y, tx.z])
         R  = self._quat_to_rot(r.x, r.y, r.z, r.w)
 
+        # Jump detection: skip frame if camera moved too far since last frame
+        if self._last_pos is not None:
+            jump = np.linalg.norm(T - self._last_pos)
+            if jump > self._max_jump:
+                self.get_logger().warn(
+                    'JUMP detected: %.3fm (max=%.2fm) — skipping frame %d'
+                    % (jump, self._max_jump, self._frame_count))
+                return
+        self._last_pos = T.copy()
+
         # Read points (x, y, z, rgb)
         pts = list(pc2.read_points(msg, field_names=('x', 'y', 'z', 'rgb'), skip_nans=True))
         if not pts:
@@ -106,6 +121,9 @@ class CloudMapAccumulator(Node):
         for pt in pts:
             x, y, z = pt[0], pt[1], pt[2]
             if not (math.isfinite(x) and math.isfinite(y) and math.isfinite(z)):
+                continue
+            # Skip points beyond 3m from camera
+            if math.sqrt(x*x + y*y + z*z) > 3.0:
                 continue
 
             # Transform to map frame
@@ -173,8 +191,70 @@ class CloudMapAccumulator(Node):
             is_dense=True,
         )
         self._pub.publish(cloud_msg)
+
+        # Get camera position in map frame
+        try:
+            cam_tf = self._tf_buffer.lookup_transform(
+                self._mframe, 'zed2i_left_camera_frame',
+                rclpy.time.Time(), timeout=rclpy.duration.Duration(seconds=0.1))
+            cam_x = cam_tf.transform.translation.x
+            cam_y = cam_tf.transform.translation.y
+            cam_z = cam_tf.transform.translation.z
+            cam_rot = cam_tf.transform.rotation
+        except Exception:
+            cam_x = cam_y = cam_z = 0.0
+            cam_rot = None
+
+        # Publish camera position marker
+        marker = Marker()
+        marker.header = header
+        marker.ns = 'camera'
+        marker.id = 0
+        marker.type = Marker.ARROW
+        marker.action = Marker.ADD
+        marker.pose.position.x = cam_x
+        marker.pose.position.y = cam_y
+        marker.pose.position.z = cam_z
+        if cam_rot:
+            marker.pose.orientation = cam_rot
+        else:
+            marker.pose.orientation.w = 1.0
+        marker.scale.x = 0.3  # longueur flèche
+        marker.scale.y = 0.05
+        marker.scale.z = 0.05
+        marker.color.r = 1.0
+        marker.color.g = 0.0
+        marker.color.b = 0.0
+        marker.color.a = 1.0
+        self._pub_marker.publish(marker)
+
+        # Filtered: points between cam_z - 0.1m and cam_z + 0.1m
+        z_min = cam_z - 0.1
+        z_max = cam_z + 0.1
+        filtered_pts = [(x, y, z, r, g, b) for (x, y, z, r, g, b) in pts if z_min <= z <= z_max]
+        if filtered_pts:
+            fdata = []
+            for (x, y, z, r, g, b) in filtered_pts:
+                rgb_int = (r << 16) | (g << 8) | b
+                rgb_f   = struct.unpack('f', struct.pack('I', rgb_int))[0]
+                fdata.append(struct.pack('ffff', x, y, z, rgb_f))
+
+            filtered_msg = PointCloud2(
+                header=header,
+                height=1,
+                width=len(filtered_pts),
+                fields=fields,
+                is_bigendian=False,
+                point_step=16,
+                row_step=16 * len(filtered_pts),
+                data=b''.join(fdata),
+                is_dense=True,
+            )
+            self._pub_filtered.publish(filtered_msg)
+
         self.get_logger().info(
-            'Published /cloud_map: %d points' % len(pts),
+            'Published /cloud_map: %d pts | /cloud_map_filtered: %d pts (cam @ %.2f,%.2f,%.2f, z±0.1m)'
+            % (len(pts), len(filtered_pts) if filtered_pts else 0, cam_x, cam_y, cam_z),
             throttle_duration_sec=3.0,
         )
 

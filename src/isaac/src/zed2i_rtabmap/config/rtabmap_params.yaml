@@ -1,0 +1,66 @@
+rtabmap:
+  ros__parameters:
+    # Frames
+    frame_id: "zed2i_camera_center"
+    odom_frame_id: "odom"
+    map_frame_id: "map"
+    subscribe_depth: true
+    subscribe_rgb: true
+    subscribe_odom: true
+    approx_sync: true
+    queue_size: 10
+
+    # RTAB-Map parameters
+    Mem/IncrementalMemory: "true"      # Online mode (mapping)
+    Mem/InitWMWithAllNodes: "false"
+
+    # Loop closure detection
+    Kp/MaxFeatures: "400"
+    Kp/DetectorStrategy: "6"           # ORB features
+    Vis/FeatureType: "6"               # ORB
+    Vis/MaxFeatures: "400"
+    Vis/MinInliers: "15"
+
+    # Loop closure parameters
+    RGBD/OptimizeMaxError: "3.0"
+    RGBD/LoopClosureReextractFeatures: "true"
+    Rtabmap/DetectionRate: "2.0"       # Hz - detection rate (more frequent updates)
+    Rtabmap/TimeThr: "0"               # 0 = no time limit for processing
+
+    # Grid map (2D occupancy grid for Nav2)
+    Grid/FromDepth: "true"             # Build grid from depth images
+    Grid/MaxGroundHeight: "0.05"       # Max height for ground classification (m)
+    Grid/MaxObstacleHeight: "1.5"      # Max obstacle height (m)
+    Grid/RangeMin: "0.3"              # Min range (m)
+    Grid/RangeMax: "8.0"              # Max range (m)
+    Grid/CellSize: "0.05"             # 5cm resolution (matches Nav2 costmap)
+    Grid/3D: "false"                   # 2D grid for Nav2
+    Grid/RayTracing: "true"            # Clear free space via ray tracing
+    Grid/NormalsSegmentation: "true"   # Segment ground vs obstacles
+
+    # Optimizer
+    Optimizer/Strategy: "2"            # GTSAM
+    Optimizer/Iterations: "20"
+    Optimizer/Slam2D: "true"           # 2D SLAM (sufficient for ground robot navigation)
+
+    # Proximity detection (local loop closures)
+    RGBD/ProximityBySpace: "true"
+    RGBD/ProximityMaxGraphDepth: "0"
+    RGBD/ProximityPathMaxNeighbors: "10"
+
+    # Memory management
+    Rtabmap/MemoryThr: "0"             # 0 = no memory limit (keep all nodes)
+
+    # Database
+    Rtabmap/DatabasePath: "/tmp/rtabmap_zed2i.db"
+
+    # Published topics
+    publish_tf: true                   # Publish map -> odom transform
+    map_always_update: true
+    map_empty_ray_tracing: true
+
+    # 3D cloud map — store point clouds in database for /rtabmap/cloud_map
+    Mem/SaveDepth2DMap: "false"
+    Grid/Sensor: "0"                   # 0=depth camera
+    cloud_output_voxelized: true
+    Mem/NotLinkedNodesKept: "false"     # Keep memory manageable
