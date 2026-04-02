@@ -66,5 +66,8 @@ RUN /bin/bash -c "source /opt/ros/${ROS_DISTRO}/setup.bash && colcon build --pac
 # Clean up
 RUN sudo rm -rf /var/lib/apt/lists/*
 
-# Remove source code from image
-RUN sudo rm -rf /home/$USERNAME/dev_ws/src/*
+# Resolve calibration symlink to a real file (source gets overlaid by volume mount at runtime)
+RUN if [ -L /usr/local/zed/settings/SN38462249.conf ]; then \
+      sudo cp -fL /usr/local/zed/settings/SN38462249.conf /tmp/SN38462249.conf && \
+      sudo mv /tmp/SN38462249.conf /usr/local/zed/settings/SN38462249.conf; \
+    fi

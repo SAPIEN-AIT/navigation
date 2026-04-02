@@ -61,6 +61,6 @@ rtabmap:
 
     # 3D cloud map — store point clouds in database for /rtabmap/cloud_map
     Mem/SaveDepth2DMap: "false"
-    Grid/Sensor: "0"                   # 0=depth camera
+    Grid/Sensor: "1"                   # 1=depth camera (0=laser scan)
     cloud_output_voxelized: true
     Mem/NotLinkedNodesKept: "false"     # Keep memory manageable
