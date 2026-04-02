@@ -29,8 +29,8 @@ rtabmap:
 
     # Grid map (2D occupancy grid for Nav2)
     Grid/FromDepth: "true"             # Build grid from depth images
-    Grid/MaxGroundHeight: "0.05"       # Max height for ground classification (m)
-    Grid/MaxObstacleHeight: "1.5"      # Max obstacle height (m)
+    Grid/MaxGroundHeight: "-0.75"       # Sol ~0.8m sous la caméra (z≈0 en SLAM 2D)
+    Grid/MaxObstacleHeight: "0.7"      # Obstacles jusqu'à 0.7m au-dessus de la caméra
     Grid/RangeMin: "0.3"              # Min range (m)
     Grid/RangeMax: "8.0"              # Max range (m)
     Grid/CellSize: "0.05"             # 5cm resolution (matches Nav2 costmap)
@@ -41,7 +41,7 @@ rtabmap:
     # Optimizer
     Optimizer/Strategy: "2"            # GTSAM
     Optimizer/Iterations: "20"
-    Optimizer/Slam2D: "true"           # 2D SLAM (sufficient for ground robot navigation)
+    Optimizer/Slam2D: "true"           # 2D SLAM
 
     # Proximity detection (local loop closures)
     RGBD/ProximityBySpace: "true"
