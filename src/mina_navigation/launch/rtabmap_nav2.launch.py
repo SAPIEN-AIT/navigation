@@ -88,7 +88,7 @@ def launch_setup(context, *args, **kwargs):
 
     # ── 4. RViz ──
     rviz_config = os.path.join(
-        get_local_share_dir(), 'config', 'rtabmap_nav2.rviz'
+        get_package_share_directory('zed2i_rtabmap'), 'rviz', 'rtabmap_nav.rviz'
     )
     rviz = Node(
         package='rviz2',

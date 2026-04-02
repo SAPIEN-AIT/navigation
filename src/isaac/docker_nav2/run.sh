@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+xhost +local:docker 2>/dev/null || true
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+ISAAC_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+MINA_NAV_DIR="$(cd "$SCRIPT_DIR/../../mina_navigation" && pwd)"
+
+docker run -it --gpus all --privileged \
+  -v /dev:/dev \
+  -v "$ISAAC_DIR":/home/xplore/dev_ws/src \
+  -v "$MINA_NAV_DIR":/home/xplore/dev_ws/src/mina_navigation \
+  -v /usr/local/zed/settings:/usr/local/zed/settings:ro \
+  -e DISPLAY="$DISPLAY" \
+  -v /tmp/.X11-unix:/tmp/.X11-unix \
+  mina_nav2
